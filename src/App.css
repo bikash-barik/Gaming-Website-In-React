@@ -1,0 +1,43 @@
+/* .row{
+  border: 1px solid #f1f1f1;
+}
+
+.col{
+  border: 1px solid #f1f1f1;
+} */
+
+.card{
+  height: 40px !important;
+  box-shadow: 0px 0px 5px rgb(187, 185, 185);
+}
+
+.card:hover{
+  box-shadow: 0px 0px 10px rgb(41, 43, 51);
+}
+
+.card-text{
+  color: #0d6efd;
+  
+}
+
+
+
+.card-text:hover{
+  color: #195cc0;
+}
+
+a{
+  text-decoration: none !important;
+
+}
+
+/* .card-text {
+  white-space: nowrap; 
+  width:200px; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+} */
+
+.card-text:hover {
+  overflow: visible;
+}
