@@ -5,9 +5,59 @@
 .col{
   border: 1px solid #f1f1f1;
 } */
+/* .navbar{
+  position: sticky !important;
+  top: 0% !important;
+} */
+.ml-3{
+  margin-left: 25px !important;
+}
+
+.mrt-51{
+  margin-top: 105000px !important;
+}
+.mb-5{
+  margin-bottom: 15px !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .sm-text-center{
+   
+    margin-left: 35px;
+  }
+  .mrt-10{
+    margin-top: 50px !important;
+  }
+
+.gttechLogo{
+  width: 160px !important;
+}
+
+.cutmLogo{
+  width: 40px;
+  margin-right: 55px;
+  margin-left: 40px;
+}
+
+.mobileNone{
+  display: none;
+}
+
+}
+@media only screen and (min-width: 780px) {
+  .mrbt-10{
+    margin-top: 50px !important;
+
+  }
+
+.desktopNone{
+  display: none;
+}
+}
 
 .card{
-  height: 40px !important;
+  background-color: #ebe7e7 !important;
+  height: 100% !important;
   box-shadow: 0px 0px 5px rgb(187, 185, 185);
 }
 
@@ -16,7 +66,7 @@
 }
 
 .card-text{
-  color: #0d6efd;
+  color: #000000;
   
 }
 
@@ -41,3 +91,56 @@ a{
 .card-text:hover {
   overflow: visible;
 }
+
+
+
+
+/* // Backcolor */
+  html, body { height: 100%; }
+  body {
+    background:radial-gradient(ellipse at center, rgba(255,254,234,1) 0%, rgba(255,254,234,1) 35%, #B7E8EB 100%);
+    /* overflow: hidden; */
+  } 
+
+  .ocean { 
+    height: 5%;
+    width:100%;
+    position:fixed;
+    bottom:0;
+    left:0;
+    background: #015871;
+  }
+  
+  .wave {
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg) repeat-x; 
+    position: absolute;
+    top: -198px;
+    width: 6400px;
+    height: 198px;
+    animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+    transform: translate3d(0, 0, 0);
+  }
+  
+  .wave:nth-of-type(2) {
+    top: -175px;
+    animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
+    opacity: 1;
+  }
+  
+  @keyframes wave {
+    0% {
+      margin-left: 0;
+    }
+    100% {
+      margin-left: -1600px;
+    }
+  }
+  
+  @keyframes swell {
+    0%, 100% {
+      transform: translate3d(0,-25px,0);
+    }
+    50% {
+      transform: translate3d(0,5px,0);
+    }
+  }

@@ -1,18 +1,31 @@
-import React, { Component, useState } from "react";
-import { Alert, Button } from "react-bootstrap";
+import React from "react";
 
-export default function Massages() {
+
+export default function Massages(props) {
   return (
     <div>
+       <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
       <div class="container">
-      <div className="h5 gofornext float-end"><a href="/"><img src="https://img.icons8.com/ios/30/3212ff/left--v1.png"/>Back</a></div>
+        <div className="h5 gofornext float-end">
+          <a href="/">
+            <img src="https://img.icons8.com/ios/30/3212ff/left--v1.png" />
+            Back
+          </a>
+        </div>
 
         <div class="col">
-        {/* <iframe frameborder="0" src="https://itch.io/embed/1165758" width="552" height="167"><a href="https://we-make-our-own-world.itch.io/human-eye-anatomy">Human Eye Anatomy by We_Make_Our_Own_World</a></iframe> */}
+       
+          {/* <iframe frameborder="0" src="https://itch.io/embed/1165758" width="552" height="167"><a href="https://we-make-our-own-world.itch.io/human-eye-anatomy">Human Eye Anatomy by We_Make_Our_Own_World</a></iframe> */}
           <iframe
-            src="https://i.simmer.io/@HeyAkash/lymphatic-system"
+            src={props.srs}
             style={{ width: "100%", height: "85vh", border: "0" }}
+            allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"
           ></iframe>
+
         </div>
 
         {/* <div class="row">

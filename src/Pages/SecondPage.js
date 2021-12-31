@@ -9,11 +9,11 @@ export default class SecondPage extends Component {
     return (
       <div>
         <BenchGrindingMachine
-          title={"The Skeletal System"}
+          title={"Lymphatic System"}
           text={
-            " A grinding machine, often shortened to grinder, is one of power tools or machine tools used for grinding, it is a type of machining using an abrasive wheel as the cutting tool."
+            " The lymphatic system is a network of tissues, vessels and organs that work together to move a colorless, watery fluid called lymph back into your circulatory system. Some 20 liters of plasma flow through your body’s arteries and smaller arteriole blood vessels and capillaries every day. The lymphatic system collects this excess fluid, now called lymph, from tissues in your body and moves it along until it's ultimately returned to your bloodstream."
           }
-          link={"/massages"}
+          link={"/view2"}
         />
       </div>
     );
@@ -27,11 +27,11 @@ export default class SecondPage extends Component {
     return (
         <div>
           <BenchGrindingMachine
-           title={"Human Brain Anatomy"}
+           title={"Anatomy Of The Skin "}
            text={
-             " Lathes are one of the most versatile machine tools in the industry, used to perform a variety of machining operations( Ex Facing, Tapering& Boring etc)."
+             "  A cell is the smallest living thing in the human organism, and all living structures in the human body are made of cells. There are hundreds of different types of cells in the human body, which vary in shape (e.g. round, flat, long and thin, short and thick) and size (e.g. small granule cells of the cerebellum in the brain (4 micrometers), up to the huge oocytes (eggs) produced in the female reproductive organs (100 micrometers) and function."
            }
-            link={"/massages"}
+            link={"/view1"}
           />
         </div>
       );
@@ -44,9 +44,9 @@ export default class SecondPage extends Component {
           <BenchGrindingMachine
             title={"Human Eye Anatomy"}
             text={
-              "A radial drilling machine or radial arm press is a geared drill head that is mounted on an arm assembly that can be moved around to the extent of its arm reach."
+              "The human ear, like that of other mammals, contains sense organs that serve two quite different functions: that of hearing and that of postural equilibrium and coordination of head and eye movements. Anatomically, the ear has three distinguishable parts: the outer, middle, and inner ear. The outer ear consists of the visible portion called the auricle, or pinna, which projects from the side of the head, and the short external auditory canal..."
             }
-            link={"/massages"}
+            link={"/view3"}
           />
         </div>
       );
@@ -57,11 +57,11 @@ export default class SecondPage extends Component {
     return (
         <div>
           <BenchGrindingMachine
-            title={"Hunam Ear Anatomy"}
+            title={"Human Ear Anatomy"}
             text={
               " A feeler gauge or a gap gauge is a tool - or, more commonly, a set of tools - used to check the width of small gaps between objects placed very close together. "
             }
-            link={"/massages"}
+            link={"/view4"}
           />
         </div>
       );

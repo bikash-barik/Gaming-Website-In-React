@@ -7,6 +7,7 @@ import Home from "./Pages/Home";
 import SecondPage from "./Pages/SecondPage";
 import Massages from "./Component/Massages";
 import { SecondPage1,SecondPage2,SecondPage3 } from "./Pages/SecondPage";
+import {Visidual,Visidual2,Visidual3,Visidual4} from "./Pages/Visidual";
 
 function App() {
   return (
@@ -19,7 +20,11 @@ function App() {
         <Route exact path="/second_page1" component={SecondPage1}/>
         <Route exact path="/second_page2" component={SecondPage2}/>
         <Route exact path="/second_page3" component={SecondPage3}/>
-        <Route exact path="/massages" component={Massages}/>
+        <Route exact path="/view1" component={Visidual}/>
+        <Route exact path="/view2" component={Visidual2}/>
+        <Route exact path="/view3" component={Visidual3}/>
+        <Route exact path="/view4" component={Visidual4}/>
+        
         
       </Switch>
     </Router>
