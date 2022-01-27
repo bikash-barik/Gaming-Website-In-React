@@ -8,7 +8,13 @@ export default function Card(props) {
         <div class="card  h-100">
           <img
             src={props.imgs}
-            class="card-img-top"
+            class="image"
+            alt="..."
+            style={{ height: "150px" }}
+          />
+          <img
+            src="./images/locklogo.png"
+            class="middle"
             alt="..."
             style={{ height: "150px" }}
           />

@@ -22,7 +22,7 @@ export default function Massages(props) {
           {/* <iframe frameborder="0" src="https://itch.io/embed/1165758" width="552" height="167"><a href="https://we-make-our-own-world.itch.io/human-eye-anatomy">Human Eye Anatomy by We_Make_Our_Own_World</a></iframe> */}
           <iframe
             src={props.srs}
-            style={{ width: "100%", height: "85vh", border: "0" }}
+            style={{ width: "100%", height: "85vh", border: "1000px",backgroundColor:"#fff" }}
             allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"
           ></iframe>
 

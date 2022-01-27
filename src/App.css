@@ -34,9 +34,9 @@
 }
 
 .cutmLogo{
-  width: 40px;
-  margin-right: 55px;
-  margin-left: 40px;
+  width: 130px;
+  margin-right: 45px;
+  margin-left: 4px;
 }
 
 .mobileNone{
@@ -72,8 +72,59 @@
 
 
 
+
+
 .card-text:hover{
   color: #195cc0;
+}
+
+
+/* 
+.commign-soon .card:hover{
+  
+  background-image: url(https://e1.pngegg.com/pngimages/901/922/png-clipart-devine-icons-gray-padlock-logo-thumbnail.png);
+  z-index: 1;
+  position: fixed;
+  color: #b10404;
+}
+
+.commign-soon .card-img-top:hover{
+  background-image: url(https://e1.pngegg.com/pngimages/901/922/png-clipart-devine-icons-gray-padlock-logo-thumbnail.png);
+
+  /* display: none; */
+/* } */ */
+
+
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.commign-soon .card:hover {
+  opacity: 0.3;
+}
+
+.commign-soon .middle:hover {
+  opacity: 1;
+  
 }
 
 a{
@@ -94,13 +145,22 @@ a{
 
 
 
+body:-webkit-scrollbar {
+  display: none !important;
+}
 
 /* // Backcolor */
-  html, body { height: 100%; }
+  html, body { height: 100%;
+  }
+
   body {
-    background:radial-gradient(ellipse at center, rgba(255,254,234,1) 0%, rgba(255,254,234,1) 35%, #B7E8EB 100%);
+    /* background:radial-gradient(ellipse at center, rgba(255,254,234,1) 0%, rgba(255,254,234,1) 35%, #B7E8EB 100%); */
+    background-color: #303030 !important;
     /* overflow: hidden; */
   } 
+
+
+/* wave animation */
 
   .ocean { 
     height: 5%;
@@ -108,17 +168,17 @@ a{
     position:fixed;
     bottom:0;
     left:0;
-    background: #015871;
+    /* background: #015871; */
   }
   
   .wave {
-    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg) repeat-x; 
+    /* background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg) repeat-x; 
     position: absolute;
     top: -198px;
     width: 6400px;
     height: 198px;
     animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
-    transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); */
   }
   
   .wave:nth-of-type(2) {
@@ -144,3 +204,30 @@ a{
       transform: translate3d(0,5px,0);
     }
   }
+
+
+
+  /* //::-webkit-scrollbar */
+
+
+  /* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ff8d1e; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
+}

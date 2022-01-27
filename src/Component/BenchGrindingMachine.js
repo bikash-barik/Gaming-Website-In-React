@@ -14,7 +14,7 @@ export default function CBenchGrindingMachineard(props) {
           Back
         </a>
       </div>
-      <div class="container shadow-lg p-3 my-5  X rounded rounded-3">
+      <div class="container shadow-lg p-3 my-5  X rounded rounded-3  bg-light">
         <div class="row justify-content-end  align-items-center">
           <div class="col-sm-0 col-md-4 h1 justify-content-center"></div>
           <div class="col-sm-2 col-md-7 h1 justify-content-center fw-bold">

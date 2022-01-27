@@ -44,7 +44,7 @@ export default class SecondPage extends Component {
           <BenchGrindingMachine
             title={"Human Eye Anatomy"}
             text={
-              "The human ear, like that of other mammals, contains sense organs that serve two quite different functions: that of hearing and that of postural equilibrium and coordination of head and eye movements. Anatomically, the ear has three distinguishable parts: the outer, middle, and inner ear. The outer ear consists of the visible portion called the auricle, or pinna, which projects from the side of the head, and the short external auditory canal..."
+              "The human eye, like that of other mammals, contains sense organs that serve two quite different functions: that of hearing and that of postural equilibrium and coordination of head and eye movements. Anatomically, the ear has three distinguishable parts: the outer, middle, and inner ear. The outer ear consists of the visible portion called the auricle, or pinna, which projects from the side of the head, and the short external auditory canal..."
             }
             link={"/view3"}
           />
@@ -62,6 +62,23 @@ export default class SecondPage extends Component {
               " A feeler gauge or a gap gauge is a tool - or, more commonly, a set of tools - used to check the width of small gaps between objects placed very close together. "
             }
             link={"/view4"}
+          />
+        </div>
+      );
+  };
+  
+
+
+  
+  export const SecHumanHeart = () => {
+    return (
+        <div>
+          <BenchGrindingMachine
+            title={"Human Heart Anatomy"}
+            text={
+              "The heart is made up of four chambers: two upper chambers known as the left atrium and right atrium and two lower chambers called the left and right ventricles. It is also made up of four valves: the tricuspid, pulmonary, mitral and aortic valves. "
+            }
+            link={"/viewhumanhart"}
           />
         </div>
       );

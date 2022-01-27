@@ -9,12 +9,22 @@ export default class Home extends Component {
           <div class="wave"></div>
           <div class="wave"></div>
         </div>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-       
-        <div class="row mrb-10">
+        <br />
+        <br />
+        <br />
+        <br />
+        <div class="row">
+          <h3 class=" mb-5  text-white">Recent Experience</h3>
+          <div class="col-sm-12 col-md-3 mrt-10">
+            <Card
+              imgs={"./images/heart-only.gif"}
+              title={"Human Heart Anatomy"}
+              text={
+                " The heart is made up of four chambers: two upper chambers known as the left atrium and right atrium and two lower..."
+              }
+              link={"/sec_humanhart"}
+            />
+          </div>
           <div class="col-sm-12 col-md-3 mrt-10">
             <Card
               imgs={"./images/eye.gif"}
@@ -25,6 +35,10 @@ export default class Home extends Component {
               link={"/second_page2"}
             />
           </div>
+        </div>
+        <div class="row mt-5 mb-5 mrbt-10">
+          <h3 class="row mt-5 mb-5 mrbt-10 text-white">Experience</h3>
+
           <div class="col-sm-12 col-md-3 mrt-10">
             <Card
               imgs={"./images/ear.gif"}
@@ -46,7 +60,7 @@ export default class Home extends Component {
               link={"/second_page"}
             />
           </div>
-          <div class="col-sm-12 col-md-3">
+          <div class="col-sm-12 col-md-3 mrt-10">
             <Card
               imgs={"./images/skin.gif"}
               title={" Anatomy Of The Skin "}
@@ -57,125 +71,116 @@ export default class Home extends Component {
             />
           </div>
         </div>
-        <div class="row mt-5 mb-5 mrbt-10">
-          <div class="col-sm-12 col-md-3 mrt-10">
-            <Card
-              imgs={"./images/heart-only.gif"}
-              title={"Human Heart Anatomy"}
-              text={" Comming Soon ...."}
-              link={"/"}
-            />
-          </div>
 
-          <div class="col-sm-12 col-md-3 mrt-10">
-            <Card
-              imgs={"./images/cardiovascular.gif"}
-              title={"Cardiovascular System"}
-              text={" Comming Soon ...."}
-              link={"/"}
-            />
-          </div>
+        <div className="commign-soon">
+          <div class="row mt-5 mb-5 mrbt-10">
+            <h3 class="mb-5 mrbt-10 text-white">Comming Soon.....</h3>
 
-          <div class="col-sm-12 col-md-3 mrt-10">
-            <Card
-              imgs={"./images/giphy.gif"}
-              title={"The Skeletal System"}
-              text={" Comming Soon ...."}
-              link={"/"}
-            />
-          </div>
-          <div class="col-sm-12 col-md-3 mrt-10">
-            <Card
-              imgs={"./images/muscular system.gif"}
-              title={"Muscular System"}
-              text={" Comming Soon ...."}
-              link={"/"}
-            />
-          </div>
-        </div>
-        <div class="row mt-5 mb-5 mrbt-10">
-          <div class="col-sm-12 col-md-3 mrt-10">
-            <Card
-              imgs={"./images/brain.gif"}
-              title={"Human Brain Anatomy"}
-              text={"Comming Soon ...."}
-              link={"/1"}
-            />
-          </div>
-          <div class="col-sm-12 col-md-3 mrt-10">
-            <Card
-              imgs={"./images/dental.gif"}
-              title={"Dental Anatomy"}
-              text={" Comming Soon ...."}
-              link={"/"}
-            />
-          </div>
-          <div class="col-sm-12 col-md-3 mrt-10">
-            <Card
-              imgs={"./images/respiratory.gif"}
-              title={"The Respiratory System"}
-              text={" Comming Soon ...."}
-              link={"/"}
-            />
-          </div>
+            <div class="col-sm-12 col-md-3 mrt-10">
+              <Card
+                imgs={"./images/cardiovascular.gif"}
+                title={"Cardiovascular System"}
+                text={" Comming Soon ...."}
+                link={"/"}
+              />
+            </div>
 
-          <div class="col-sm-12 col-md-3 mrt-10">
-            <Card
-              imgs={"./images/renal.gif"}
-              title={"The Renal System"}
-              text={" Comming Soon ...."}
-              link={"/"}
-            />
+            <div class="col-sm-12 col-md-3 mrt-10">
+              <Card
+                imgs={"./images/giphy.gif"}
+                title={"The Skeletal System"}
+                text={" Comming Soon ...."}
+                link={"/"}
+              />
+            </div>
+            <div class="col-sm-12 col-md-3 mrt-10">
+              <Card
+                imgs={"./images/muscular system.gif"}
+                title={"Muscular System"}
+                text={" Comming Soon ...."}
+                link={"/"}
+              />
+            </div>
+            <div class="col-sm-12 col-md-3 mrt-10">
+              <Card
+                imgs={"./images/brain.gif"}
+                title={"Human Brain Anatomy"}
+                text={"Comming Soon ...."}
+                link={"/1"}
+              />
+            </div>
           </div>
-        </div>
-        <div class="row mt-5 mb-5 mrbt-10">
-          <div class="col-sm-12 col-md-3 mrt-10">
-            <Card
-              imgs={"./images/kidney.gif"}
-              title={"Kidney Anatomy"}
-              text={" Comming Soon ...."}
-              link={"/"}
-            />
-          </div>
+          <div class="row mt-5 mb-5 mrbt-10">
+            <div class="col-sm-12 col-md-3 mrt-10">
+              <Card
+                imgs={"./images/kidney.gif"}
+                title={"Kidney Anatomy"}
+                text={" Comming Soon ...."}
+                link={"/"}
+              />
+            </div>
 
-          <div class="col-sm-12 col-md-3 mrt-10">
-            <Card
-              imgs={"./images/Liver.gif"}
-              title={"Liver Anatomy"}
-              text={" Comming Soon ...."}
-              link={"/"}
-            />
-          </div>
+            <div class="col-sm-12 col-md-3 mrt-10">
+              <Card
+                imgs={"./images/Liver.gif"}
+                title={"Liver Anatomy"}
+                text={" Comming Soon ...."}
+                link={"/"}
+              />
+            </div>
 
-          <div class="col-sm-12 col-md-3 mrt-10">
-            <Card
-              imgs={"./images/digestive system.gif"}
-              title={"Digestive System"}
-              text={" Comming Soon ...."}
-              link={"/"}
-            />
+            <div class="col-sm-12 col-md-3 mrt-10">
+              <Card
+                imgs={"./images/digestive system.gif"}
+                title={"Digestive System"}
+                text={" Comming Soon ...."}
+                link={"/"}
+              />
+            </div>
+            <div class="col-sm-12 col-md-3 mrt-10">
+              <Card
+                imgs={"./images/skin.gif"}
+                title={"Structure of Cell"}
+                text={" Comming Soon ...."}
+                link={"/"}
+              />
+            </div>
+          </div>{" "}
+          <div class="row mt-5 mb-5 mrbt-10">
+            <div class="col-sm-12 col-md-3 mrt-10">
+              <Card
+                imgs={"./images/reproductive.gif"}
+                title={"Reproductive System"}
+                text={" Comming Soon ...."}
+                link={"/"}
+              />
+            </div>
+            <div class="col-sm-12 col-md-3 mrt-10">
+              <Card
+                imgs={"./images/dental.gif"}
+                title={"Dental Anatomy"}
+                text={" Comming Soon ...."}
+                link={"/"}
+              />
+            </div>
+            <div class="col-sm-12 col-md-3 mrt-10">
+              <Card
+                imgs={"./images/respiratory.gif"}
+                title={"The Respiratory System"}
+                text={" Comming Soon ...."}
+                link={"/"}
+              />
+            </div>
+
+            <div class="col-sm-12 col-md-3 mrt-10">
+              <Card
+                imgs={"./images/renal.gif"}
+                title={"The Renal System"}
+                text={" Comming Soon ...."}
+                link={"/"}
+              />
+            </div>
           </div>
-          <div class="col-sm-12 col-md-3 mrt-10">
-            <Card
-              imgs={"./images/skin.gif"}
-              title={"Structure of Cell"}
-              text={" Comming Soon ...."}
-              link={"/"}
-            />
-          </div>
-        </div>{" "}
-        <div class="row mt-5 mb-5 mrbt-10">
-          <div class="col-sm-12 col-md-3 mrt-10">
-            <Card
-              imgs={"./images/reproductive.gif"}
-              title={"Reproductive System"}
-              text={" Comming Soon ...."}
-              link={"/"}
-            />
-          </div>
-          <div class="col-sm-12 col-md-3 mrt-10"></div>
-          <div class="col-sm-12 col-md-3 mrt-10"></div>
-          <div class="col-sm-12 col-md-3 mrt-10"></div>
         </div>
       </div>
     );

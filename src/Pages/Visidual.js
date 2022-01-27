@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import Massages from "../Component/Massages";
 
 export const Visidual = () => {
@@ -29,6 +29,15 @@ export const Visidual4 = () => {
   return (
     <div>
       <Massages srs={"https://itch.io/embed-upload/4982740?color=333333"} />
+    </div>
+  );
+};
+
+
+export const ViewHumanHeart = () => {
+  return (
+    <div>
+      <Massages srs={"https://itch.io/embed-upload/5060418?color=333333"} />
     </div>
   );
 };
