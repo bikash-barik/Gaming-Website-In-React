@@ -11,7 +11,7 @@ export default function Massages(props) {
         <br/>
       <div class="container">
         <div className="h5 gofornext float-end">
-          <a href="/">
+          <a href="/3d/3danatomy">
             <img src="https://img.icons8.com/ios/30/3212ff/left--v1.png" />
             Back
           </a>

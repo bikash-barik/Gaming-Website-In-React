@@ -13,7 +13,7 @@ export default function Card(props) {
             style={{ height: "150px" }}
           />
           <img
-            src="./images/locklogo.png"
+            src="../images/locklogo.png"
             class="middle"
             alt="..."
             style={{ height: "150px" }}

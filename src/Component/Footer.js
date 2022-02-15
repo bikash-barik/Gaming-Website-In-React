@@ -22,26 +22,21 @@ const Footer = () => {
 <h5 class="widget-title">Quick Links<span></span></h5>
 <ul class="thumbnail-widget">
 <li>
-<div class="thumb-content"><a href="#.">Get Started</a></div> 
+<div class="thumb-content"><a href="#.">Home</a></div> 
 </li>
 <li>
-<div class="thumb-content"><a href="#.">Top Leaders</a></div> 
+<div class="thumb-content"><a href="#.">Project</a></div>  
 </li>
 <li>
-<div class="thumb-content"><a href="#.">Success Stories</a></div> 
-</li>
-<li>
-<div class="thumb-content"><a href="#.">Event/Tickets</a></div> 
-</li>
-<li>
-<div class="thumb-content"><a href="#.">News</a></div>  
-</li>
-<li>
-<div class="thumb-content"><a href="#.">Lifestyle</a></div> 
+<div class="thumb-content"><a href="/services">Services</a></div>  
 </li>
 <li>
 <div class="thumb-content"><a href="#.">About</a></div> 
 </li>
+<li>
+<div class="thumb-content"><a href="#.">ContactUs</a></div> 
+</li>
+
 </ul>
 </div>
 </div>

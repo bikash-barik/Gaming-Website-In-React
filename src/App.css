@@ -119,10 +119,10 @@
 }
 
 .commign-soon .card:hover {
-  opacity: 0.3;
+  opacity: 0.6;
 }
 
-.commign-soon .middle:hover {
+.commign-soon .card:hover .middle {
   opacity: 1;
   
 }

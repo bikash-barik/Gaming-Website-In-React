@@ -9,7 +9,7 @@ export default class Header extends Component {
           <div class="col-sm-12 col-md-2 desktopNone">
             <img
               // src="https://convocation.cutm.ac.in/images/cutm%20logo1.png"
-              src="./images/CUTMLogo.png"
+              src="../images/CUTMLogo.png"
 
               style={{background:" #FFF"}}
               className="cutmLogo rounded"
@@ -17,7 +17,7 @@ export default class Header extends Component {
             />
 
             <img
-              src="./images/logo1.png"
+              src="../images/logo1.png"
               width="350px"
               class="rounded desktopNone gttechLogo bg-dark"
               alt="..."
@@ -25,7 +25,7 @@ export default class Header extends Component {
           </div>
             <a class="navbar-brand mobileNone" href="/">
               <img
-                src="./images/CUTMLogo.png"
+                src="../images/CUTMLogo.png"
                 alt=""
                 width="150"
                 height="54"
@@ -36,7 +36,7 @@ export default class Header extends Component {
             <div className="d-flex align-content-center flex-wrap ">
             <h3 className="p-2 sm-text-center text-white">3D Human Anatomy <img  src="https://img.icons8.com/ios/26/ffffff/learn-more.png"/></h3>
             <img
-                src="./images/logo1.png"
+                src="../images/logo1.png"
                 alt=""
                 width="150"
                 height="54"

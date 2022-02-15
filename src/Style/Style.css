@@ -1,0 +1,35 @@
+.muscular{
+    margin-top: 100px;
+   
+}
+
+.muscular .imgs:hover{
+    background-color: aqua;
+    
+   
+}
+
+.heading{
+    margin: 16px 0;
+    font-size: 30px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.167;
+    letter-spacing: 0em;
+    color: #fff;
+}
+
+.paragraph{
+    color: rgb(173, 179, 179);
+    text-align: justify;
+  text-justify: inter-word;
+}
+
+
+.aboutparttext{
+    width: 500px;
+
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}

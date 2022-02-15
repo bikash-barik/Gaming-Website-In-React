@@ -1,0 +1,271 @@
+/* *{
+    margin: 0 !important;
+    padding: 0 !important;
+} */
+ul{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+li{
+    list-style: none !important;
+}
+/* body{
+    background-color: #eee !important;
+    font-family: 'Open Sans', sans-serif !important;
+} */
+
+/* width */
+::-webkit-scrollbar {
+    width: 3px !important;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey !important; 
+    border-radius: 10px !important;
+    display: none !important;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #333 !important; 
+    border-radius: 10px !important;
+    display: none !important;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #333 !important; 
+    display: block !important;
+  }
+
+
+.side-menu{
+    position: fixed !important;
+    background: #4e4e4e !important;
+    width: 300px !important;
+    height: 100% !important;
+    box-sizing: border-box !important;
+    padding: 30px 20px !important;
+    transition: width .2s ease-in !important;
+}
+
+.side-menu.inactive{
+    width: 80px !important;
+}
+
+.side-menu .top-section{
+    position: relative !important;
+}
+
+.side-menu .top-section .logo{
+    width: 40px !important;
+    height: 40px !important;
+    overflow: hidden !important;
+    display: inline-block !important;
+}
+.side-menu .top-section .logo img{
+    max-width: 100% !important;
+    max-height: 100% !important;
+}
+
+.side-menu .top-section .toggle-menu-btn{
+    color: #000 !important;
+    font-size: 20px !important;
+    position: absolute !important;
+    top: 50% !important;
+    right: 0 !important;
+    transform: translateY(-50%) !important;
+    cursor: pointer !important;
+}
+
+.side-menu.inactive .top-section .toggle-menu-btn{
+    right: -50px !important;
+}
+
+.side-menu .search-controller{
+    color: #fff !important;
+    position: relative !important;
+}
+
+.side-menu .search-controller .search-btn{
+    width: 40px !important;
+    height: 35px !important;
+    position: absolute !important;
+    background: transparent !important;
+    border: 0 !important;
+    font-size: 20px !important;
+    color: #000 !important;
+}
+
+.side-menu .search-controller input[type=text]{
+    border: 0 !important;
+    outline: none !important;
+    height: 35px !important;
+    background: #333 !important;
+    border-radius: 5px !important;
+    display: block !important;
+    margin: 20px 0 !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    padding-left: 40px !important;
+    color: #000 !important;
+}
+
+.side-menu .main-menu .menu-item{
+    color: rgb(197, 192, 192) !important;
+    text-decoration: none !important;
+    font-size: 15px !important;
+    display: block !important;
+    font-weight: 600 !important;
+    cursor: pointer !important;
+}
+
+.side-menu .main-menu .menu-item.active{
+    background: #333 !important;
+    border-radius: 5px !important;
+    color: #fff !important;
+}
+
+
+.side-menu .main-menu{
+    margin: 5px 0 !important;
+    position: relative !important;
+    max-height: 100% !important;
+    overflow-y: scroll !important;
+    overflow-x: hidden !important;
+   
+}
+/* not required any more */
+.side-menu.inactive .main-menu{
+
+}
+
+.side-menu .main-menu .menu-item .menu-icon{
+    display: inline-block !important;
+    width: 40px !important;
+    height: 40px !important;
+    font-size: 20px !important;
+    line-height: 40px !important;
+    text-align: center !important;
+}
+
+.side-menu .main-menu .menu-item span{
+    position: absolute !important;
+    display: inline-block !important;
+    line-height: 40px !important;
+    opacity: 1;
+    transition: opacity .2s ease-in !important;
+}
+
+.side-menu.inactive .main-menu .menu-item span{
+    opacity: 0 !important;
+    width: 0 !important;
+    height: 0 !important;
+    overflow: hidden !important;
+}
+
+.side-menu .main-menu .sub-menu{
+    color: #333 !important;
+    margin-left: 20px !important;
+    border-left: 1px solid #666 !important;
+    box-sizing: border-box !important;
+    padding-left: 30px !important;
+    max-height: 0 !important;
+    overflow: scroll !important;
+    transition: max-height .2s ease-in !important;
+}
+
+
+
+.side-menu .main-menu .sub-menu.active{
+    max-height: 200px !important;
+}
+
+.side-menu .main-menu .sub-menu a{
+    display: block !important;
+    margin: 5px 0 !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    text-decoration: none !important;
+    color: rgb(20, 20, 20) !important;
+    box-sizing: border-box !important;
+    padding: 5px !important;
+    background-color: #4b4a48;
+}
+
+
+.side-menu .main-menu .sub-menu a:hover{
+    /* change in background, not recorded in video */
+    background: #ff8d1e !important;
+    display: block !important;
+    
+    border-radius: 5px !important;
+    color: #fff !important;
+
+}
+
+.side-menu-footer{
+    width: 100% !important;
+    background: #333 !important;
+    position: absolute !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    padding: 20px !important;
+    box-sizing: border-box !important;
+}
+
+.side-menu-footer .avatar{
+    width: 40px !important;
+    height: 40px !important;
+    overflow: hidden !important;
+    border-radius: 50% !important;
+    display: inline-block !important;
+}
+.side-menu-footer .avatar img{
+    max-width: 100% !important;
+}
+
+.side-menu-footer .user-info{
+    display: inline-block !important;
+    margin: 0 10px !important;
+    color: #fff !important;
+    position: absolute !important;
+    opacity: 1 !important;
+    transition: opacity .2s ease-in !important;
+}
+
+.side-menu.inactive .side-menu-footer .user-info{
+    opacity: 1 !important;
+    width: 0 !important;
+    height: 0 !important;
+    overflow: hidden !important;
+}
+
+
+.side-menu-footer .user-info h5{
+    font-size: 15px !important;
+}
+
+
+.side-menu-footer .user-info p{
+    font-size: 14px !important;
+}
+
+.divider{
+    width: 100% !important;
+    height: 1px !important;
+    border-radius: 1px !important;
+    background: #333 !important;
+}
+
+.con{
+    margin-left: 300px !important;
+    transition: margin-left .2s ease-in !important;
+    padding: 50px !important;
+    box-sizing: border-box !important;
+}
+
+.con.inactive{
+    margin-left: 80px !important;
+}

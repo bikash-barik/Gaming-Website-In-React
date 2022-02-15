@@ -9,7 +9,7 @@ export default function CBenchGrindingMachineard(props) {
       <br />
       <br />
       <div className="h5 gofornext float-end">
-        <a href="/">
+        <a href="/3d/3danatomy">
           <img src="https://img.icons8.com/ios/30/3212ff/left--v1.png" />
           Back
         </a>
@@ -64,7 +64,7 @@ export default function CBenchGrindingMachineard(props) {
           <a href="https://www.thegttech.com/">
 
             <img
-              src="./images/logo1.png"
+              src="../images/logo1.png"
               width="300px"
               class="rounded float-start gttechLogo bg-dark"
               alt="..."

@@ -41,3 +41,32 @@ export const ViewHumanHeart = () => {
     </div>
   );
 };
+
+
+export const ViewMuscularSystem = () => {
+  return (
+    <div>
+      <Massages srs={"https://itch.io/embed-upload/5191082?color=333333"} />
+    </div>
+  );
+};
+
+
+
+
+export const ViewRespiratorySystem = () => {
+  return (
+    <div>
+      <Massages srs={"https://itch.io/embed-upload/5191113?color=333333"} />
+    </div>
+  );
+};
+
+
+export const ViewDigestiveSystem = () => {
+  return (
+    <div>
+      <Massages srs={"https://itch.io/embed-upload/5195309?color=333333"} />
+    </div>
+  );
+};
