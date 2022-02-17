@@ -8,8 +8,8 @@ export default class Header extends Component {
           <div class="container-fluid">
           <div class="col-sm-12 col-md-2 desktopNone">
             <img
-              // src="https://convocation.cutm.ac.in/images/cutm%20logo1.png"
-              src="../images/CUTMLogo.png"
+              // src="https://convocation.cutm.ac.in/images/cutm%20logo.png"
+              src="../images/logo.png"
 
               style={{background:" #FFF"}}
               className="cutmLogo rounded"

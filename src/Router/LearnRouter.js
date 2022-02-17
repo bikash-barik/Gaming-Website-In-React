@@ -11,6 +11,7 @@ import HumanEar from "../Component/Learn/LearnPart/HumanEar";
 import HumanEye from "../Component/Learn/LearnPart/HumanEye";
 import Header from "../Component/Header";
 import SkinAnatomy from "../Component/Learn/LearnPart/SkinAnatomy";
+import HumanHeart from "../Component/Learn/LearnPart/HumanHeart";
 
 // pages import
 
@@ -54,6 +55,9 @@ function LearnRouter() {
           <Route exact path="/learn/lymphaticsystem" component={LymphaticSystem}/>
           <Route exact path="/learn/humanear" component={HumanEar}/>
           <Route exact path="/learn/humaneye" component={HumanEye}/>
+          <Route exact path="/learn/humanheart" component={HumanHeart}/>
+
+
             {/* <Route exact path={"/learnmore"}>
               <SideHumanAnatomy />
             </Route> */}

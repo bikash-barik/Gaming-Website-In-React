@@ -125,12 +125,12 @@ export const menuItems = [
   {
     name: "Human Heart",
     exact: true,
-    to: `/Promotions`,
+    to: `/learn/humanheart`,
     iconClassName: "bi bi-bell",
     subMenus: [
-      { name: "About", to: "/FreeCoupon" },
-      { name: "INTERNAL PARTS", to: "/FreeCoupon" },
-      { name: "EXTERNAL PARTS ", to: "/DownloaadReporrts" },
+      { name: "About", to: "/learn/humanheart#about" },
+      { name: "INTERNAL PARTS", to: "/learn/humanheart#internalparts" },
+      { name: "EXTERNAL PARTS ", to: "/learn/humanheart#externalparts" },
     ],
   },
 
