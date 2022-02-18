@@ -9,6 +9,7 @@ import { SecondPage1,SecondPage2,SecondPage3,SecHumanHeart,SecMuscularSystem } f
 import {Visidual,Visidual2,Visidual3,Visidual4,ViewHumanHeart,ViewMuscularSystem, ViewRespiratorySystem, ViewdigestiveSystem, ViewDigestiveSystem} from "../Pages/Visidual";
 import Footer from "../Component/Footer";
 import { Services } from "../Pages/Services";
+import ContactUs from "../Pages/ContactUs";
 
 function AppRouter() {
   return (
@@ -34,6 +35,7 @@ function AppRouter() {
         <Route exact path="/3d/viewmuscularsystem" component={ViewMuscularSystem}/>
         <Route exact path="/3d/viewrespiratorysystem" component={ViewRespiratorySystem}/>
         <Route exact path="/3d/viewdigestivesystem" component={ViewDigestiveSystem}/>
+        <Route exact path="/3d/contactus" component={ContactUs}/>
         
       </Switch>
       <Footer />

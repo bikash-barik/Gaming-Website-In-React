@@ -4,6 +4,10 @@ body {
     background-color: #f1f1f2
 }
 
+
+
+
+
 .home-info-grey {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -309,21 +313,21 @@ a {
 
 /* -----------3D  BUTTON--------------- */
 
-button {
+.header-blue  .hero button {
     border: none;
     border-radius: 15px;
     box-shadow: 0 0 8px rgb(207, 207, 207);
     padding: 10px;
 }
 
-button:hover {
+.header-blue  .hero button:hover {
     border: none;
     padding: 15px;
     border-radius: 15px;
     box-shadow: inset 0 0 8px #f9f8fc;
 }
 
-#foot {
+.header-blue  .hero #foot {
     position: relative;
     top: 5px;
     left: 0;
@@ -340,7 +344,7 @@ button:hover {
     animation-duration: 5s;
 }
 
-.button-os {
+.header-blue  .hero .button-os {
     position: absolute;
     width: 200px;
     height: 55px;
@@ -356,13 +360,13 @@ button:hover {
     transition: 1.5s;
 }
 
-.button-os:hover {
+.header-blue  .hero .button-os:hover {
     position: absolute;
     top: 30px;
     background-color: #ff8700;
 }
 
-.button-os a {
+.header-blue  .hero .button-os a {
     font-size: 20px;
     display: block;
     text-decoration: none;
@@ -370,12 +374,14 @@ button:hover {
     transition: 1.5s;
 }
 
-.button-os a:hover {
+.header-blue  .hero .button-os a:hover {
     letter-spacing: 1.5px;
     color: #fff;
 }
 
-.edu {
+/* /////edu */
+
+.homeexe .edu {
     font-family: 'Bebas Neue', cursive;
     text-align: center;
     font-size: 162px;
@@ -384,42 +390,47 @@ button:hover {
     text-shadow: 1px 1px 1px #919191, 1px 2px 1px #8B0000, 1px 3px 1px #8B0000, 1px 4px 1px #8B0000, 1px 5px 1px #8B0000, 1px 6px 1px #8B0000, 1px 7px 1px #919191, 1px 8px 1px #919191, 1px 9px 1px #919191, 1px 10px 1px #919191, 1px 18px 6px rgba(16, 16, 16, 0.4), 1px 22px 10px rgba(16, 16, 16, 0.2), 1px 25px 35px rgba(16, 16, 16, 0.2), 1px 30px 60px rgba(16, 16, 16, 0.4);
 }
 
-.pic1 {
+.homeexe .pic1 {
     z-index: -2;
 }
 
 
 
-.content {
-    padding-top: 150px;
-    padding-left: 10px;
-}
-.two-column{
-    margin-bottom: 160px;
-    
+.homeexe .content {
+    justify-content: center;
+    justify-items: center;
+    display: ;
+    /* padding-top: 150px;
+    padding-left: 10px; */
 }
 
-.pic2{
+/* .homeexe .two-column{
+    margin-bottom: 160px;  
+} */
+
+.homeexe .pic2{
     z-index: -2;
 }
- .ro{
+/* .homeexe .ro{
 flex-wrap: wrap;
 margin-right: -30px;
 margin-left: -30px;
-}
-.header-educators{
+} */
+.homeexe .header-educators{
     margin-bottom: 5rem;
 }
-.header-students{
+.homeexe .header-students{
     margin-bottom: 5rem;
 }
-#explore-btn{
+.homeexe #explore-btn{
     color: white;
     margin-left:4px;
 }
-#explore-btn:hover{
+.homeexe #explore-btn:hover{
     border-bottom: 1px solid white;
 }
+
+/* ///contact us page  */
 
 .contact_toogle{
   width: 60px;
@@ -427,16 +438,29 @@ margin-left: -30px;
   background-color: #ff8700;
   height: 200px;
   padding: 30px 16px;
-  left: -50%;
+  
+  right: 0;
   float: right;
   text-align: center;
   transition: all .5s ease;
   transform: translate(0,-50%);
   top: 50%;
+  position: fixed;
 }
-.contact_toogle p{
+ .contact_toogle p{
     writing-mode:tb-rl;
    transform: rotate(-180deg);
    text-align: center;
    height: 100%;
 }
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .home_page{
+        margin-top: 170px !important;
+    }
+    
+}
+

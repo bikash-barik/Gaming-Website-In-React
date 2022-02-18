@@ -50,6 +50,29 @@ const SideHumanAnatomy = () => {
           </div>
         </div>
       </div>  
+
+
+
+      
+      <div class="container">
+        <div class="row ">
+          <div class="col">
+          <a href="/" className="btn px-5">
+            <img src="https://img.icons8.com/ios/30/ffffff/left--v1.png" />
+            Back
+          </a>
+          </div>
+
+          <div class="col d-flex justify-content-end mr-5">
+          <a href="/learn/muscularsystem" className="btn px-5">
+            
+            Next
+            <img src="https://img.icons8.com/ios/30/ffffff/right--v1.png" />
+          </a>
+          </div>
+        </div>
+        
+    </div>
     </div>
   )
 }

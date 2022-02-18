@@ -31,7 +31,9 @@ function HomeFeed() {
 
 
       </div>
+{/* -----------all ------- */}
 
+<div className="homeexe">
 
       {/* ----------------------EDUCATOR------------------------------------ */}
 
@@ -136,7 +138,7 @@ function HomeFeed() {
       <div class="two_column">
         <div class="container header-students">
           <div class="row d-flex flex-md-row-reverse ro">
-            <div class="col-lg-6 col-md-12 pic2 ">
+            <div class="col-lg-6 col-md-12 col-xm-12 pic2 ">
               <img src="https://www.primalpictures.com/wp-content/uploads/2019/06/corporate-update.jpg.webp" alt="" />
             </div>
             <div class="col-lg-6 col-md-12">
@@ -157,11 +159,13 @@ function HomeFeed() {
 
         </div>
       </div>
-
+      </div>
       {/* ----------------------------CORPORATE ENDS------------------------------------- */}
       <div class="contact_toogle">
         <p>Contact us</p>
       </div>
+
+      
     </>
   );
 }
