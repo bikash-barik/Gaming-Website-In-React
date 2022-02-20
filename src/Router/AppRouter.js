@@ -17,7 +17,7 @@ function AppRouter() {
     <Router >
       <Header />
       <Switch>
-        <Route exact path="/" component={Services}/>
+        <Route exact path="/3d/anatomy" component={Services}/>
         <Route exact path="/3d/3danatomy" component={Home}/>
         <Route exact path="/3d/second_page" component={SecondPage}/>
         <Route exact path="/3d/second_page1" component={SecondPage1}/>

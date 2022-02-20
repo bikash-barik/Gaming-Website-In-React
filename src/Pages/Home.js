@@ -26,13 +26,15 @@ export default class Home extends Component {
             />
           </div>
           <div class="col-sm-12 col-md-3 mrt-10">
-              <Card
-                imgs={"../images/digestive system.gif"}
-                title={"Digestive System"}
-                text={" The digestive system breaks down food into nutrients such as carbohydrates, fats and proteins. They can then be..."}
-                link={"/3d/sec_digestivesystem"}
-              />
-            </div>
+            <Card
+              imgs={"../images/digestive system.gif"}
+              title={"Digestive System"}
+              text={
+                " The digestive system breaks down food into nutrients such as carbohydrates, fats and proteins. They can then be..."
+              }
+              link={"/3d/sec_digestivesystem"}
+            />
+          </div>
           <div class="col-sm-12 col-md-3 mrt-10">
             <Card
               imgs={"../images/eye.gif"}
@@ -43,8 +45,6 @@ export default class Home extends Component {
               link={"/3d/second_page2"}
             />
           </div>
-         
-            
         </div>
         <div class="row mt-5 mb-5 mrbt-10">
           <h3 class="row mt-5 mb-5 mrbt-10 text-white">Experience</h3>
@@ -59,7 +59,6 @@ export default class Home extends Component {
               link={"/3d/second_page3"}
             />
           </div>
-          
 
           <div class="col-sm-12 col-md-3 mrt-10">
             <Card
@@ -82,25 +81,29 @@ export default class Home extends Component {
             />
           </div>
           <div class="col-sm-12 col-md-3 mrt-10">
-              <Card
-                imgs={"../images/respiratory.gif"}
-                title={"The Respiratory System"}
-                text={" Your lungs are part of the respiratory system, a group of organs and tissues that work together to help you breathe, ...."}
-                link={"/3d/sec_respiratorysystem"}
-              />
-            </div>
+            <Card
+              imgs={"../images/respiratory.gif"}
+              title={"The Respiratory System"}
+              text={
+                " Your lungs are part of the respiratory system, a group of organs and tissues that work together to help you breathe, ...."
+              }
+              link={"/3d/sec_respiratorysystem"}
+            />
+          </div>
         </div>
 
         <div class="row mt-5 mb-5 mrbt-10">
-        <div class="col-sm-12 col-md-3 mrt-10">
-              <Card
-                imgs={"../images/muscular system.gif"}
-                title={"Muscular System"}
-                text={" The muscular system is an organ system consisting of skeletal, smooth and cardiac muscles. It permits movement of the body, ..."}
-                link={"/3d/sec_muscularsystem"}
-              />
-            </div>
-</div>
+          <div class="col-sm-12 col-md-3 mrt-10">
+            <Card
+              imgs={"../images/muscular system.gif"}
+              title={"Muscular System"}
+              text={
+                " The muscular system is an organ system consisting of skeletal, smooth and cardiac muscles. It permits movement of the body, ..."
+              }
+              link={"/3d/sec_muscularsystem"}
+            />
+          </div>
+        </div>
         <div className="commign-soon">
           <div class="row mt-5 mb-5 mrbt-10">
             <h3 class="mb-5 mrbt-10 text-white">Comming Soon.....</h3>
@@ -138,7 +141,6 @@ export default class Home extends Component {
                 link={"/3d/1"}
               />
             </div>
-            
           </div>
           <div class="row mt-5 mb-5 mrbt-10">
             <div class="col-sm-12 col-md-3 mrt-10">
@@ -159,7 +161,6 @@ export default class Home extends Component {
               />
             </div>
 
-            
             <div class="col-sm-12 col-md-3 mrt-10">
               <Card
                 imgs={"../images/skin.gif"}
@@ -186,10 +187,6 @@ export default class Home extends Component {
                 link={"/3d/"}
               />
             </div>
-            
-            
-
-           
           </div>
         </div>
       </div>

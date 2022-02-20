@@ -1,53 +1,59 @@
-import React from 'react'
+import React, { useState } from 'react'
+import "../Style/Contactus.css"
+
 
 const ContactUs = () => {
+    
   return (
+
+    // 
+
     <div>
-        <div className="section">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-12">
-                            <div className="section-title">
-                                <h2 className="title">Contact Us</h2>
-                                <p>Let us know what you think! In order to provide better service,
-                                     please do not hesitate to give us your feedback. Thank you.</p><hr/>
-                                <form id="contact-form" onSubmit={this.submitEmail.bind(this)} 
-                                    method="POST">
-                                <div className="form-group">
-                                <div className="row">
-                                <div className="col-md-6">
-                                    <input placeholder = "Name"  id="name" type="text" 
-                                       className="form-control" required value={this.state.name} 
-                                       onChange={this.onNameChange.bind(this)}/>
-                                </div>
-                                <div className="col-md-6">
-                                    <input placeholder = "Email"  id="email" type="email"
-                                      className="form-control" aria-describedby="emailHelp"
-                                      required value={this.state.email} onChange=
-                                      {this.onEmailChange.bind(this)}/>
-                                </div>
-                                </div>
-                                </div>
-                                <div className="form-group">
-                                    <input placeholder = "Subject"  id="subject" type="text"
-                                      className="form-control" required value={this.state.subject}
-                                      onChange={this.onSubjectChange.bind(this)}/>
-                                </div>
-                                <div className="form-group">
-                                    <textarea placeholder = "Message"  id="message" 
-                                       className="form-control" rows="1" 
-                                       required value={this.state.message}
-                                       onChange= {this.onMsgChange.bind(this)}/>
-                                </div>
-                                <button type="submit" className="primary-btn submit">Submit</button>
-                                </form>
-                            </div>
-                        </div>
 
-                    </div>
 
+      <div  class="container w-25  text-center mt-5">
+        <h2 className="text-white">Any Query</h2>
+        <div class="card p-3">
+          <div class="row">
+            <div class="col-md-12 text-white">
+              <div class="row">
+                <div class="col-md-6">
+                  {" "}
+                  <input
+                    type="text"
+                    placeholder="Name"
+                    class="form-control text-white"
+                  />{" "}
                 </div>
+                <div class="col-md-6">
+                  {" "}
+                  <input
+                    type="text"
+                    placeholder="Email"
+                    class="form-control text-white"
+                  />{" "}
+                </div>
+              </div>
+              <div class="row mt-3">
+                <div class="col-md-12">
+                  {" "}
+                  <textarea
+                    class="form-control textarea text-white"
+                    placeholder="Message"
+                    rows="4"
+                  >
+                    {" "}
+                  </textarea>{" "}
+                </div>
+              </div>
+              <div class="send-button mt-4">
+                {" "}
+                <button class="button">Send Message</button>{" "}
+              </div>
             </div>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }

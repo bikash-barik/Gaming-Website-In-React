@@ -6,12 +6,14 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import IndexAppRouter from "./Router/IndexAppRouter";
 import AppRouter from "./Router/AppRouter";
 import LearnRouter from "./Router/LearnRouter";
+import HomeRouter from "./Router/HomeRouter";
 
 function App() {
   return (
     <>
     <Router >
       <Switch>
+      {/* <Route path="/" component={HomeRouter} /> */}
       <Route path="/3d" component={AppRouter} />
       <Route path="/learn" component={LearnRouter} />
        <IndexAppRouter/>
