@@ -31,18 +31,16 @@ function HomeFeed() {
 
 
       </div>
-{/* -----------all ------- */}
 
-<div className="homeexe">
 
-      {/* ----------------------EDUCATOR------------------------------------ */}
 
-      <h1 class="edu">Educators</h1>
-      <div class="two_column ">
-        <div class="container header-educators">
-          <div class="row d-flex ro">
-            <div class="col-lg-6 col-md-12 pic1">
-              <img src="https://www.primalpictures.com/wp-content/uploads/2019/06/educators-update.jpg.webp" alt="" />
+
+      {/* ----------------------EDUCATORs SECTION STARTS------------------------------------ */}
+      <div class="two_column" >
+        <div class="container ">
+          <div class="row d-flex ">
+            <div class="col-lg-6 col-md-12 ">
+              <img class="img-fluid" src="https://www.primalpictures.com/wp-content/uploads/2019/06/educators-update.jpg.webp" alt="" />
             </div>
             <div class="col-lg-6 col-md-12">
               <div class="content">
@@ -52,30 +50,24 @@ function HomeFeed() {
                 <p class="text-light">
                   Integrate dynamic, interactive content directly into your learning environment – lecture, lab, assessment. Support independent discovery and diverse learning experiences.
                 </p>
-                <a href="" id="explore-btn">
+                <a href="#na" class="explore-btn">
                   EXPLORE
                 </a>
 
               </div>
             </div>
-
           </div>
-
         </div>
-
-
+        <h1>EDUCATORS</h1>
       </div>
-
-      {/* -----------------------------EDUCATOR ENDS----------------------------------- */}
-
-      {/* -----------------------------STUDENTS STARTS----------------------------------- */}
+      {/* -----------------------------EDUCATORS SECTION ENDS---------------------------- */}
 
 
-      <h1 class="edu">Students</h1>
-      <div class="two_column">
-        <div class="container header-students">
-          <div class="row d-flex flex-md-row-reverse ro">
-            <div class="col-lg-6 col-md-12 pic2 ">
+      {/* -----------------------------STUDENTS SECTION STARTS--------------------------- */}
+      <div class="two_column" >
+        <div class="container ">
+          <div class="row d-flex flex-md-row-reverse">
+            <div class="col-lg-6 col-md-12 ">
               <img src="https://www.primalpictures.com/wp-content/uploads/2019/06/students-update.jpg.webp" alt="" />
             </div>
             <div class="col-lg-6 col-md-12">
@@ -86,27 +78,24 @@ function HomeFeed() {
                 <p class="text-light">
                   Explore, learn and master!  Ensure a solid foundation of anatomy and physiology knowledge is your cornerstone.
                 </p>
-                <a href="" id="explore-btn">
+                <a href="#na" class="explore-btn">
                   EXPLORE
                 </a>
-              </div>
 
+              </div>
             </div>
           </div>
-
         </div>
+        <h1>STUDENTS</h1>
       </div>
+      {/* -----------------------------STUDENTS SECTION ENDS------------------------------------ */}
 
-
-      {/* -----------------------------STUDENTS ENDS------------------------------------ */}
 
       {/* -----------------------------PRACTITIONERS STARTS------------------------------ */}
-
-      <h1 class="edu">Practitioners</h1>
-      <div class="two_column ">
-        <div class="container header-educators">
-          <div class="row d-flex ro">
-            <div class="col-lg-6 col-md-12 pic1">
+      <div class="two_column" >
+        <div class="container ">
+          <div class="row d-flex ">
+            <div class="col-lg-6 col-md-12 ">
               <img src="https://www.primalpictures.com/wp-content/uploads/2019/06/practitioners-update.jpg.webp" alt="" />
             </div>
             <div class="col-lg-6 col-md-12">
@@ -117,28 +106,24 @@ function HomeFeed() {
                 <p class="text-light">
                   Promote better health outcomes with a wealth of specialty-focused content that brings anatomy into focus – for you and your patients.
                 </p>
-                <a href="" id="explore-btn">
+                <a href="#na" class="explore-btn">
                   EXPLORE
                 </a>
 
               </div>
             </div>
-
           </div>
-
         </div>
-
-
+        <h1>Practitioners</h1>
       </div>
+      {/*-----------------------------PRACTITIONERS ENDS----------------------------  */}
 
-      {/*------------------------------PRACTITIONERS ENDS--------------------------------  */}
 
       {/* ----------------------------CORPORATE STARTS--------------------------------*/}
-      <h1 class="edu">Corporate</h1>
-      <div class="two_column">
-        <div class="container header-students">
-          <div class="row d-flex flex-md-row-reverse ro">
-            <div class="col-lg-6 col-md-12 col-xm-12 pic2 ">
+      <div class="two_column" >
+        <div class="container ">
+          <div class="row d-flex flex-md-row-reverse">
+            <div class="col-lg-6 col-md-12 ">
               <img src="https://www.primalpictures.com/wp-content/uploads/2019/06/corporate-update.jpg.webp" alt="" />
             </div>
             <div class="col-lg-6 col-md-12">
@@ -149,23 +134,24 @@ function HomeFeed() {
                 <p class="text-light">
                   Maximize brand impact through optimal go-to-market readiness. Breakthrough with innovative, dynamic programs built on foundation of evidence-based accuracy and unrivaled coverage.
                 </p>
-                <a href="" id="explore-btn">
+                <a href="#na" class="explore-btn">
                   EXPLORE
                 </a>
-              </div>
 
+              </div>
             </div>
           </div>
-
         </div>
-      </div>
+        <h1>Corporate</h1>
       </div>
       {/* ----------------------------CORPORATE ENDS------------------------------------- */}
+
+      {/* ----------------------------SIDE CONTACT TOOGLE----------------------------------*/}
       <div class="contact_toogle">
         <p>Contact us</p>
       </div>
 
-      
+
     </>
   );
 }

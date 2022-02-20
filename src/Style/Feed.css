@@ -379,10 +379,25 @@ a {
     color: #fff;
 }
 
-/* /////edu */
+/*################# EDUCATORS SECTION STARTS ####################*/
+/*################# STUDENTS SECTION STARTS ####################*/
+/*################# PRACTITIONERS SECTION STARTS ####################*/
+/*################# CORPORATE SECTION STARTS ####################*/
 
-.homeexe .edu {
+.two_column{
+    position: relative;
+    margin-bottom:160px ;
+    margin-top: 100px;
+}
+
+
+ .two_column h1 {
     font-family: 'Bebas Neue', cursive;
+    position: absolute;
+    display: block;
+    left: 0;
+    right: 0;
+    top: -100px;
     text-align: center;
     font-size: 162px;
     margin-bottom: -80px;
@@ -390,48 +405,41 @@ a {
     text-shadow: 1px 1px 1px #919191, 1px 2px 1px #8B0000, 1px 3px 1px #8B0000, 1px 4px 1px #8B0000, 1px 5px 1px #8B0000, 1px 6px 1px #8B0000, 1px 7px 1px #919191, 1px 8px 1px #919191, 1px 9px 1px #919191, 1px 10px 1px #919191, 1px 18px 6px rgba(16, 16, 16, 0.4), 1px 22px 10px rgba(16, 16, 16, 0.2), 1px 25px 35px rgba(16, 16, 16, 0.2), 1px 30px 60px rgba(16, 16, 16, 0.4);
 }
 
-.homeexe .pic1 {
-    z-index: -2;
+@media screen and (max-width: 991px) {
+    .two_column h1{
+        font-size:80px ;
+        top: -31px;
+    }
+    
+}
+.two_column .row{
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
 }
 
-
-
-.homeexe .content {
-    justify-content: center;
-    justify-items: center;
-    display: ;
-    /* padding-top: 150px;
-    padding-left: 10px; */
+.two_column .content{
+    padding: 150px 50px 0 50px;
+    
 }
 
-/* .homeexe .two-column{
-    margin-bottom: 160px;  
-} */
-
-.homeexe .pic2{
-    z-index: -2;
-}
-/* .homeexe .ro{
-flex-wrap: wrap;
-margin-right: -30px;
-margin-left: -30px;
-} */
-.homeexe .header-educators{
-    margin-bottom: 5rem;
-}
-.homeexe .header-students{
-    margin-bottom: 5rem;
-}
-.homeexe #explore-btn{
+.two_column .explore-btn{
     color: white;
-    margin-left:4px;
+    font-weight: 900;
 }
-.homeexe #explore-btn:hover{
-    border-bottom: 1px solid white;
+.two_column .explore-btn:hover{
+    border-bottom:1px solid white ;
 }
 
-/* ///contact us page  */
 
+/*################# EDUCATORS SECTION ENDS ####################*/
+/*################# STUDENTS SECTION ENDS ####################*/
+/*################# PRACTITIONERS SECTION ENDS ####################*/
+/*################# CORPORATE SECTION ENDS ####################*/
+
+
+
+/* ############### CONTACT US SIDE TOGGLE ################ */
 .contact_toogle{
   width: 60px;
   
