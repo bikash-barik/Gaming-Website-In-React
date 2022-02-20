@@ -40,7 +40,7 @@ function HomeFeed() {
         <div class="container ">
           <div class="row d-flex ">
             <div class="col-lg-6 col-md-12 ">
-              <img class="img-fluid" src="https://www.primalpictures.com/wp-content/uploads/2019/06/educators-update.jpg.webp" alt="" />
+              <img src="https://www.primalpictures.com/wp-content/uploads/2019/06/educators-update.jpg.webp" alt="" />
             </div>
             <div class="col-lg-6 col-md-12">
               <div class="content">

@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 body {
-    background-color: #f1f1f2
+    /* background-color: #f1f1f2 */
+    background-color: white;
 }
 
 
@@ -401,14 +402,15 @@ a {
     text-align: center;
     font-size: 162px;
     margin-bottom: -80px;
-    color: #FFF;
+    color: white;
     text-shadow: 1px 1px 1px #919191, 1px 2px 1px #8B0000, 1px 3px 1px #8B0000, 1px 4px 1px #8B0000, 1px 5px 1px #8B0000, 1px 6px 1px #8B0000, 1px 7px 1px #919191, 1px 8px 1px #919191, 1px 9px 1px #919191, 1px 10px 1px #919191, 1px 18px 6px rgba(16, 16, 16, 0.4), 1px 22px 10px rgba(16, 16, 16, 0.2), 1px 25px 35px rgba(16, 16, 16, 0.2), 1px 30px 60px rgba(16, 16, 16, 0.4);
 }
 
 @media screen and (max-width: 991px) {
     .two_column h1{
-        font-size:80px ;
-        top: -31px;
+        font-size:60px ;
+        top: -40px;
+        
     }
     
 }
@@ -423,6 +425,22 @@ a {
     
 }
 
+@media screen and (max-width: 991px){
+    .two_column .content{
+        padding-top: 40px !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    
+}
+
+@media screen and (max-width: 991px) {
+    .two_column{
+        margin-bottom: 40px !important; ;
+    }
+    
+}
+
 .two_column .explore-btn{
     color: white;
     font-weight: 900;
@@ -431,6 +449,11 @@ a {
     border-bottom:1px solid white ;
 }
 
+.two_column img{
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
 
 /*################# EDUCATORS SECTION ENDS ####################*/
 /*################# STUDENTS SECTION ENDS ####################*/
