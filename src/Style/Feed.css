@@ -378,7 +378,6 @@ a {
 /*################# PRACTITIONERS SECTION STARTS ####################*/
 /*################# CORPORATE SECTION STARTS ####################*/
 
-<<<<<<< HEAD
 .homeexe .edu {
   font-family: "Bebas Neue", cursive;
   text-align: center;
@@ -426,7 +425,7 @@ margin-left: -30px;
 }
 .homeexe #explore-btn:hover {
   border-bottom: 1px solid white;
-=======
+}
 .two_column{
     position: relative;
     margin-bottom:160px ;
@@ -472,13 +471,10 @@ margin-left: -30px;
 }
 .two_column .explore-btn:hover{
     border-bottom:1px solid white ;
->>>>>>> 193aef5f652a0f917592744a564d2fadc4ca1e91
 }
 
 
-<<<<<<< HEAD
-.contact_toogle {
-=======
+/* .contact_toogle { */
 /*################# EDUCATORS SECTION ENDS ####################*/
 /*################# STUDENTS SECTION ENDS ####################*/
 /*################# PRACTITIONERS SECTION ENDS ####################*/
@@ -488,7 +484,6 @@ margin-left: -30px;
 
 /* ############### CONTACT US SIDE TOGGLE ################ */
 .contact_toogle{
->>>>>>> 193aef5f652a0f917592744a564d2fadc4ca1e91
   width: 60px;
   background-color: transparent;
   height: 150px;

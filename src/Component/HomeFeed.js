@@ -147,7 +147,6 @@ function HomeFeed() {
         <h1>Corporate</h1>
       </div>
       {/* ----------------------------CORPORATE ENDS------------------------------------- */}
-<<<<<<< HEAD
       <div class="contact_toogle" >
         <p>Contact us</p>
       </div>
@@ -198,7 +197,6 @@ function HomeFeed() {
         </div>
       </div>
       
-=======
 
       {/* ----------------------------SIDE CONTACT TOOGLE----------------------------------*/}
       <div class="contact_toogle">
@@ -206,7 +204,6 @@ function HomeFeed() {
       </div>
 
 
->>>>>>> 193aef5f652a0f917592744a564d2fadc4ca1e91
     </>
   );
 }
