@@ -373,8 +373,12 @@ a {
   color: #fff;
 }
 
-/* /////edu */
+/*################# EDUCATORS SECTION STARTS ####################*/
+/*################# STUDENTS SECTION STARTS ####################*/
+/*################# PRACTITIONERS SECTION STARTS ####################*/
+/*################# CORPORATE SECTION STARTS ####################*/
 
+<<<<<<< HEAD
 .homeexe .edu {
   font-family: "Bebas Neue", cursive;
   text-align: center;
@@ -422,11 +426,69 @@ margin-left: -30px;
 }
 .homeexe #explore-btn:hover {
   border-bottom: 1px solid white;
+=======
+.two_column{
+    position: relative;
+    margin-bottom:160px ;
+    margin-top: 100px;
 }
 
-/* ///contact us page  */
 
+ .two_column h1 {
+    font-family: 'Bebas Neue', cursive;
+    position: absolute;
+    display: block;
+    left: 0;
+    right: 0;
+    top: -100px;
+    text-align: center;
+    font-size: 162px;
+    margin-bottom: -80px;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #919191, 1px 2px 1px #8B0000, 1px 3px 1px #8B0000, 1px 4px 1px #8B0000, 1px 5px 1px #8B0000, 1px 6px 1px #8B0000, 1px 7px 1px #919191, 1px 8px 1px #919191, 1px 9px 1px #919191, 1px 10px 1px #919191, 1px 18px 6px rgba(16, 16, 16, 0.4), 1px 22px 10px rgba(16, 16, 16, 0.2), 1px 25px 35px rgba(16, 16, 16, 0.2), 1px 30px 60px rgba(16, 16, 16, 0.4);
+}
+
+@media screen and (max-width: 991px) {
+    .two_column h1{
+        font-size:80px ;
+        top: -31px;
+    }
+    
+}
+.two_column .row{
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.two_column .content{
+    padding: 150px 50px 0 50px;
+    
+}
+
+.two_column .explore-btn{
+    color: white;
+    font-weight: 900;
+}
+.two_column .explore-btn:hover{
+    border-bottom:1px solid white ;
+>>>>>>> 193aef5f652a0f917592744a564d2fadc4ca1e91
+}
+
+
+<<<<<<< HEAD
 .contact_toogle {
+=======
+/*################# EDUCATORS SECTION ENDS ####################*/
+/*################# STUDENTS SECTION ENDS ####################*/
+/*################# PRACTITIONERS SECTION ENDS ####################*/
+/*################# CORPORATE SECTION ENDS ####################*/
+
+
+
+/* ############### CONTACT US SIDE TOGGLE ################ */
+.contact_toogle{
+>>>>>>> 193aef5f652a0f917592744a564d2fadc4ca1e91
   width: 60px;
   background-color: transparent;
   height: 150px;
