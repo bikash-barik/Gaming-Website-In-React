@@ -1,14 +1,14 @@
 import React from "react";
-import Card from "./Card";
 import FeedView, { FeedViewLeft } from "./FeedView";
 
 const Seed = () => {
   return (
     <div class="container header-blue">
-      <div class="container header-blue">
+      <div class="container header-blue"
+       srclink={""}>
         <div class=" hero">
           <div class=" row border position-sticky">
-            <div class="col-12 col-lg-6 col-xl-6 offset-xl-1 text-white">
+            <div class="col-12 col-lg-4 col-xl-4 offset-xl-1 text-white">
               <h1>The Leading 3D</h1>
               <p className="fw-bold ">
                 For Educators, Students, Practitioners and Industry
@@ -23,80 +23,19 @@ const Seed = () => {
                 our solutions with confidence.
               </p>
             </div>
-            <div class="col-md-5 col-lg-5 offset-lg-1 offset-xl-0 d-none d-lg-block phone-holder">
+            <div class="col-md-5 col-lg-5 offset-lg-1 offset-xl-1 d-none d-lg-block phone-holder justify-center mt-5">
               <div class="iphone-mockup">
                 <img
-                  class="device"
-                  src="http://www.animationboom.net/blog/wp-content/uploads/2020/08/animation-3d.jpg"
-                  alt=""
+                  class="devic"
+                  src="https://www.forbesindia.com/media/images/2021/Nov/img_170999__augmentedreality_bg.jpg"
+                  alt="" width="600px"
                 />
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="container header-blue">
-        <div class=" hero">
-          <div class="row">
-            {/* <h3 class=" mb-5  text-white">Recent Experience</h3> */}
-            <div class="col-sm-12 col-md-3 mrt-10">
-              <Card
-                imgs={"https://innerbody.imgix.net/3bodies2.jpg"}
-                title={"Anatomy"}
-                text={
-                  " The heart is made up of four chambers: two upper chambers known as the left atrium and right atrium and two lower..."
-                }
-                link={"/3d/sec_humanhart"}
-              />
-            </div>
-            <div class="col-sm-12 col-md-3 mrt-10">
-              <Card
-                imgs={"https://innerbody.imgix.net/3bodies2.jpg"}
-                title={"Engineer"}
-                text={
-                  " The digestive system breaks down food into nutrients such as carbohydrates, fats and proteins. They can then be..."
-                }
-                link={"/3d/sec_digestivesystem"}
-              />
-            </div>
-            <div class="col-sm-12 col-md-3 mrt-10">
-              <Card
-                imgs={"https://innerbody.imgix.net/3bodies2.jpg"}
-                title={"Architecture"}
-                text={
-                  "The human eye is an organ that reacts to light in many circumstances. As a conscious sense organ, the human eye  ..."
-                }
-                link={"/3d/second_page2"}
-              />
-            </div>
-            <div class="col-sm-12 col-md-3 mrt-10">
-              <Card
-                imgs={"https://innerbody.imgix.net/3bodies2.jpg"}
-                title={"Tourisme"}
-                text={
-                  "The human eye is an organ that reacts to light in many circumstances. As a conscious sense organ, the human eye  ..."
-                }
-                link={"/3d/second_page2"}
-              />
-            </div>
-          </div>
-          <div class="row mt-5 mb-5 mrbt-10">
-
-          <div class="col-sm-12 col-md-3 mrt-10">
-            <Card
-              imgs={"https://res.cloudinary.com/devex/image/fetch/c_scale,f_auto,q_auto,w_720/https://lh3.googleusercontent.com/ibrwYhkcinkIhda8073e1YpXTlVAlM7Yi43i9uXk0wwv5FvLRaSStG21b5e7wuFbkG3T8WLBg--HfQP6L26tng6ts1IsHUpPbr2Ne2f2i9f2IbY5IHjlI7MZIvowZcNaZWXQki0"}
-              title={"Entertainment"}
-              text={
-                "The human ear, like that of other mammals, contains sense organs that serve two quite different  ..."
-              }
-              link={"/3d/second_page3"}
-            />
-          </div>
-
-        </div>
-
-        </div>
-      </div>
+      
 
       <div>
         <FeedView
@@ -104,12 +43,16 @@ const Seed = () => {
           title={
             "Hip abduction is where the leg moves away from the mid-body, backward, forward or sideways. You do this movement when you take a side step or step out of a car. The muscles responsible are the hip abductors, a small muscle group located in the outer thighs and around the glutes."
           }
+          link={"/3d/anatomy"}
+          srclink={"https://i.ytimg.com/vi/eSYSybPxUM4/maxresdefault.jpg"}
         />
         <FeedViewLeft
           heading={"Engineer :-"}
           title={
             "Hip abduction is where the leg moves away from the mid-body, backward, forward or sideways. You do this movement when you take a side step or step out of a car. The muscles responsible are the hip abductors, a small muscle group located in the outer thighs and around the glutes."
           }
+          link={"/3d/anatomy"}
+           srclink={"https://media.istockphoto.com/photos/computer-science-engineer-wearing-virtual-reality-headset-works-with-picture-id968289756?k=20&m=968289756&s=612x612&w=0&h=6p-c4PIvWqxpASlCTvEzpD8mAUuiQsUq9m69pW7Ix5E="}
         />
 
         <FeedView
@@ -117,18 +60,25 @@ const Seed = () => {
           title={
             "Hip abduction is where the leg moves away from the mid-body, backward, forward or sideways. You do this movement when you take a side step or step out of a car. The muscles responsible are the hip abductors, a small muscle group located in the outer thighs and around the glutes."
           }
+          link={"/3d/anatomy"}
+          srclink={"https://cdn.redshift.autodesk.com/2017/06/virtual-reality-in-architecture-header_kss-e1639098479465.jpg"}
         />
         <FeedViewLeft
           heading={"Tourisme :-"}
           title={
             "Hip abduction is where the leg moves away from the mid-body, backward, forward or sideways. You do this movement when you take a side step or step out of a car. The muscles responsible are the hip abductors, a small muscle group located in the outer thighs and around the glutes."
           }
+          link={"/3d/anatomy"}
+           srclink={""}
+          srclink={"https://imageio.forbes.com/specials-images/imageserve/60c2eed696889810881fea8c/Extended-Reality-In-Tourism--4-Ways-VR-and-AR-Can-Enhance-The-Travel-Experience/960x0.jpg?fit=bounds&format=jpg&width=960"}
         />
         <FeedView
           heading={"Entertainment :-"}
           title={
             "Hip abduction is where the leg moves away from the mid-body, backward, forward or sideways. You do this movement when you take a side step or step out of a car. The muscles responsible are the hip abductors, a small muscle group located in the outer thighs and around the glutes."
           }
+          link={"/3d/anatomy"}
+          srclink={"https://content.fortune.com/wp-content/uploads/2019/06/vir07.19-the-void.jpg"}
         />
       </div>
     </div>

@@ -1,0 +1,93 @@
+import React, { useState } from "react";
+// import { Carousel } from "antd";
+// import { Carousel } from 'react-bootstrap'
+import Carousel from "react-bootstrap/Carousel";
+import "../../Style/Style.css";
+
+const HomeSlider = () => {
+  const [index, setIndex] = useState(0);
+
+  const handleSelect = (selectedIndex, e) => {
+    setIndex(selectedIndex);
+  };
+  return (
+    <div>
+      <Carousel activeIndex={index} onSelect={handleSelect}>
+        <Carousel.Item>
+          <img
+            className="d-block w-100 "
+            src="https://www.nixsolutions.com/uploads/2019/01/VR-AR.jpg"
+            alt="First slide"
+            height="596"
+          />
+          <Carousel.Caption className="text-center">
+            <h3 className="text-center">
+              Powering The Next Generation Of Learning-Based 3D Application
+            </h3>
+            <p>WebGL, MOBILE, Augmented And Virtual Reality .</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src="https://www.arena-sayajigunj.com/wp-content/uploads/2021/02/human_anatomy_atlas_1x-1080x675.jpg"
+            alt="Second slide"
+            height="596"
+          />
+
+          <Carousel.Caption>
+            <h3>Anatomy(Incredible Experience)</h3>
+            <p>The First Cloud Based Virtual 3D Assest Of Human Organs.</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src="https://public-images.interaction-design.org/literature/articles/heros/article_131038_hero_5b1fcab3b36c15.57508282.jpg"
+            alt="Third slide"
+            height="596"
+          />
+
+          <Carousel.Caption>
+            <h3>Architecture</h3>
+            <p>
+              Intractive Virtual Platform For Visualising 3D Interior Design.
+            </p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src="https://s27389.pcdn.co/wp-content/uploads/2019/08/vr-ar-potential-1024x440.jpeg.optimal.jpeg"
+            alt="Third slide"
+            height="596"
+          />
+
+          <Carousel.Caption>
+            <h3>Engineering</h3>
+            <p>
+              Virtual 3D Experience For The Machanical Component.
+            </p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src="https://imageio.forbes.com/specials-images/imageserve/60c2eed696889810881fea8c/Extended-Reality-In-Tourism--4-Ways-VR-and-AR-Can-Enhance-The-Travel-Experience/960x0.jpg?fit=bounds&format=jpg&width=960"
+            alt="Third slide"
+            height="596"
+          />
+
+          <Carousel.Caption>
+            <h3>Tourism</h3>
+            <p>
+              Virtual 3D Experience For The Tourist.
+            </p>
+          </Carousel.Caption>
+        </Carousel.Item>
+      </Carousel>
+    </div>
+  );
+};
+
+export default HomeSlider;

@@ -9,9 +9,9 @@ import SkeletalSystem from "../Component/Learn/LearnPart/SkeletalSystem";
 import LymphaticSystem from "../Component/Learn/LearnPart/LymphaticSystem";
 import HumanEar from "../Component/Learn/LearnPart/HumanEar";
 import HumanEye from "../Component/Learn/LearnPart/HumanEye";
-import Header from "../Component/Header";
 import SkinAnatomy from "../Component/Learn/LearnPart/SkinAnatomy";
 import HumanHeart from "../Component/Learn/LearnPart/HumanHeart";
+import HeaderLearning from "../Component/HeaderLearning";
 
 // pages import
 
@@ -21,7 +21,7 @@ function LearnRouter() {
   return (
     <div className="App">
       <Router>
-        <Header/>
+        <HeaderLearning/>
         <SideMenu
           onCollapse={(inactive) => {
             console.log(inactive);
