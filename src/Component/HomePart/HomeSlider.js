@@ -15,8 +15,10 @@ const HomeSlider = () => {
       <Carousel activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item>
           <img
-            className="d-block w-100 "
-            src="https://www.nixsolutions.com/uploads/2019/01/VR-AR.jpg"
+            className="d-block w-100 opacity-25"
+            src="./images/vr.png"
+           
+
             alt="First slide"
             height="596"
           />
@@ -29,7 +31,7 @@ const HomeSlider = () => {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block w-100 opacity-25"
             src="https://www.arena-sayajigunj.com/wp-content/uploads/2021/02/human_anatomy_atlas_1x-1080x675.jpg"
             alt="Second slide"
             height="596"
@@ -42,7 +44,7 @@ const HomeSlider = () => {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block w-100 opacity-25"
             src="https://public-images.interaction-design.org/literature/articles/heros/article_131038_hero_5b1fcab3b36c15.57508282.jpg"
             alt="Third slide"
             height="596"
@@ -57,7 +59,7 @@ const HomeSlider = () => {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block w-100 opacity-25"
             src="https://s27389.pcdn.co/wp-content/uploads/2019/08/vr-ar-potential-1024x440.jpeg.optimal.jpeg"
             alt="Third slide"
             height="596"
@@ -72,7 +74,7 @@ const HomeSlider = () => {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block w-100 opacity-25"
             src="https://imageio.forbes.com/specials-images/imageserve/60c2eed696889810881fea8c/Extended-Reality-In-Tourism--4-Ways-VR-and-AR-Can-Enhance-The-Travel-Experience/960x0.jpg?fit=bounds&format=jpg&width=960"
             alt="Third slide"
             height="596"
