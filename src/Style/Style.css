@@ -44,6 +44,7 @@
     width: 100%;
     height: 800px;
   }
+<<<<<<< HEAD
   
 
 
@@ -53,4 +54,8 @@
     z-index: 1;
     left: 69% !important;
     top: 9%;
+=======
+  .top{
+    top: 235px;
+>>>>>>> e6e0b26472d1509a676f07a0ca81e6348828ab9a
   }

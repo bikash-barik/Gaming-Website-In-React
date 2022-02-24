@@ -3,6 +3,7 @@ import FeedView, { FeedViewLeft } from "./FeedView";
 import Fade from 'react-reveal/Fade';
 const Seed = () => {
   return (
+<<<<<<< HEAD
     <div class="container header-blue">
       {/* <div class="container header-blue"
        srclink={""}>
@@ -35,6 +36,40 @@ const Seed = () => {
           </div>
         </div>
       </div> */}
+=======
+    // <div class="container header-blue">
+    //   <div class="container header-blue"
+    //    srclink={""}>
+    //     <div class=" hero">
+    //       <div class=" row border position-sticky">
+    //         <div class="col-12 col-lg-4 col-xl-4 offset-xl-1 text-white">
+    //           <h1>The Leading 3D</h1>
+    //           <p className="fw-bold ">
+    //             For Educators, Students, Practitioners and Industry
+    //             Professionals
+    //             <br />
+    //           </p>
+    //           <p>
+    //             Depend on the world’s most detailed, accurate and evidence-based
+    //             3D . University experts produced our 3D models. Advanced
+    //             academic research and hundreds of thousands of development hours
+    //             underpin its creation, exhaustively peer reviewed so you can use
+    //             our solutions with confidence.
+    //           </p>
+    //         </div>
+    //         <div class="col-md-5 col-lg-5 offset-lg-1 offset-xl-1 d-none d-lg-block phone-holder justify-center mt-5">
+    //           <div class="iphone-mockup">
+    //             <img
+    //               class="devic"
+    //               src="https://www.forbesindia.com/media/images/2021/Nov/img_170999__augmentedreality_bg.jpg"
+    //               alt="" width="600px"
+    //             />
+    //           </div>
+    //         </div>
+    //       </div>
+    //     </div>
+    //   </div>
+>>>>>>> e6e0b26472d1509a676f07a0ca81e6348828ab9a
       
 
       <div>
@@ -83,7 +118,7 @@ const Seed = () => {
           srclink={"https://content.fortune.com/wp-content/uploads/2019/06/vir07.19-the-void.jpg"}
         />
       </div>
-    </div>
+  
   );
 };
 
