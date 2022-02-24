@@ -17,13 +17,13 @@ const HomeSlider = () => {
           <img
             className="d-block w-100 opacity-25"
             src="./images/vr.png"
-           
+
 
             alt="First slide"
             height="596"
           />
-          <Carousel.Caption className="text-center">
-            <h3 className="text-center">
+          <Carousel.Caption className="text-center top">
+            <h3 className="text-center top">
               Powering The Next Generation Of Learning-Based 3D Application
             </h3>
             <p>WebGL, MOBILE, Augmented And Virtual Reality .</p>
@@ -37,7 +37,7 @@ const HomeSlider = () => {
             height="596"
           />
 
-          <Carousel.Caption>
+          <Carousel.Caption className="top">
             <h3>Anatomy(Incredible Experience)</h3>
             <p>The First Cloud Based Virtual 3D Assest Of Human Organs.</p>
           </Carousel.Caption>
@@ -45,12 +45,12 @@ const HomeSlider = () => {
         <Carousel.Item>
           <img
             className="d-block w-100 opacity-25"
-            src="https://public-images.interaction-design.org/literature/articles/heros/article_131038_hero_5b1fcab3b36c15.57508282.jpg"
+            src="./images/vr2.jpg"
             alt="Third slide"
             height="596"
           />
 
-          <Carousel.Caption>
+          <Carousel.Caption className="top">
             <h3>Architecture</h3>
             <p>
               Intractive Virtual Platform For Visualising 3D Interior Design.
@@ -65,7 +65,7 @@ const HomeSlider = () => {
             height="596"
           />
 
-          <Carousel.Caption>
+          <Carousel.Caption className="top">
             <h3>Engineering</h3>
             <p>
               Virtual 3D Experience For The Machanical Component.
@@ -80,7 +80,7 @@ const HomeSlider = () => {
             height="596"
           />
 
-          <Carousel.Caption>
+          <Carousel.Caption className="top">
             <h3>Tourism</h3>
             <p>
               Virtual 3D Experience For The Tourist.
