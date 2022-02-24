@@ -1,10 +1,10 @@
 import React from "react";
 import FeedView, { FeedViewLeft } from "./FeedView";
-
+import Fade from 'react-reveal/Fade';
 const Seed = () => {
   return (
     <div class="container header-blue">
-      <div class="container header-blue"
+      {/* <div class="container header-blue"
        srclink={""}>
         <div class=" hero">
           <div class=" row border position-sticky">
@@ -34,10 +34,11 @@ const Seed = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       
 
       <div>
+      <Fade left>
         <FeedView
           heading={"Anatomy:-"}
           title={
@@ -46,6 +47,7 @@ const Seed = () => {
           link={"/3d/anatomy"}
           srclink={"https://i.ytimg.com/vi/eSYSybPxUM4/maxresdefault.jpg"}
         />
+        </Fade>
         <FeedViewLeft
           heading={"Engineer :-"}
           title={

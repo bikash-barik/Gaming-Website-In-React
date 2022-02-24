@@ -2,7 +2,7 @@ import React from "react";
 
 const FeedView = (props) => {
   return (
-    <div>
+    <div className="mt-5 py-5">
       <div className="muscular mt-5">
         <a href={props.link}>
           <div class="container">

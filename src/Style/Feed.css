@@ -510,7 +510,7 @@ margin-left: -30px;
 .contact_toogle{
   width: 60px;
   background-color: transparent;
-  height: 150px;
+  height: 41px;
   /* padding: -500px 0px !important; */
   font-size: larger;
   right: 0;
@@ -518,13 +518,13 @@ margin-left: -30px;
   /* text-align: center; */
   transition: all 0.5s ease;
   transform: translate(0, -50%);
-  top: 50%;
+  top: 18%;
   position: fixed;
 }
-.contact_toogle p {
+.contact_toogle  button{
   writing-mode: tb-rl;
   width: 80px;
-  transform: rotate(-180deg);
+  transform: rotate(-90deg);
   text-align: center;
   justify-content: center;
   margin-right: 180px !important;
