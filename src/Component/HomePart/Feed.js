@@ -3,14 +3,12 @@ import FeedView, { FeedViewLeft } from "./FeedView";
 import Fade from 'react-reveal/Fade';
 const Seed = () => {
   return (
-<<<<<<< HEAD
+
     <div class="container header-blue">
-=======
+
  
   
 
->>>>>>> 9ef99169446edc18c478e8593c36e0396124aa7d
-      
      <div class="container header-blue">
      
       <div>
