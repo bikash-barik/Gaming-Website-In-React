@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Ubuntu:wght@500&display=swap');
+
 
 body {
   background-color: #f1f1f2;
@@ -537,4 +539,8 @@ margin-left: -30px;
   .home_page {
     margin-top: 170px !important;
   }
+}
+
+.heading{
+  font-family: 'Poppins', sans-serif;
 }
