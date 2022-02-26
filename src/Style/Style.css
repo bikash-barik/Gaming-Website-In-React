@@ -1,3 +1,14 @@
+.textFont{
+  font-size: "580px" !important;
+}
+
+/* //css for 3d model */
+#arch_model{
+  width: 500px;
+  height: 500px;
+}
+
+
 .muscular{
     margin-top: 100px;
    
@@ -44,7 +55,6 @@
     width: 100%;
     height: 800px;
   }
-<<<<<<< HEAD
   
 
 
@@ -54,8 +64,7 @@
     z-index: 1;
     left: 69% !important;
     top: 9%;
-=======
+  }
   .top{
     top: 235px;
->>>>>>> e6e0b26472d1509a676f07a0ca81e6348828ab9a
   }

@@ -34,7 +34,7 @@ export default class HeaderLeanding extends Component {
              
             </a>
             <div className="d-flex align-content-center flex-wrap ">
-            <h3 className="p-2 sm-text-center text-white">Intractive 3D Assests <img  src="https://img.icons8.com/ios/26/ffffff/learn-more.png"/></h3>
+            <h3 className="p-2 sm-text-center text-white">Digital 3D Assest <img  src="https://img.icons8.com/ios/26/ffffff/learn-more.png"/></h3>
             <img
                 src="../images/logo1.png"
                 alt=""

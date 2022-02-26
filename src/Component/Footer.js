@@ -12,7 +12,7 @@ const Footer = () => {
   
 <div class="col-xs-12 col-sm-6 col-md-3">
 <div class="widget subscribe no-box">
-<h5 class="widget-title text-uppercase">3D Human Anatomy<span></span></h5>
+<h5 class="widget-title text-uppercase">Digital 3d Assest<span></span></h5>
 <p>About the company, little discription will goes here.. </p>
 </div>
 </div>

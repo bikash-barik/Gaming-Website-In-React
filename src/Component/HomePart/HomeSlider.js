@@ -11,7 +11,7 @@ const HomeSlider = () => {
     setIndex(selectedIndex);
   };
   return (
-    <div>
+    <div >
       <Carousel activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item>
           <img
@@ -23,9 +23,9 @@ const HomeSlider = () => {
             height="596"
           />
           <Carousel.Caption className="text-center top">
-            <h3 className="text-center top">
+            <h1 className="text-center top textFont">
               Powering The Next Generation Of Learning-Based 3D Application
-            </h3>
+            </h1>
             <p>WebGL, MOBILE, Augmented And Virtual Reality .</p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -38,7 +38,7 @@ const HomeSlider = () => {
           />
 
           <Carousel.Caption className="top">
-            <h3>Anatomy(Incredible Experience)</h3>
+            <h1 className="textFont">Anatomy(Incredible Experience)</h1>
             <p>The First Cloud Based Virtual 3D Assest Of Human Organs.</p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -51,7 +51,7 @@ const HomeSlider = () => {
           />
 
           <Carousel.Caption className="top">
-            <h3>Architecture</h3>
+            <h1 className="textFont">Architecture</h1>
             <p>
               Intractive Virtual Platform For Visualising 3D Interior Design.
             </p>
@@ -66,7 +66,7 @@ const HomeSlider = () => {
           />
 
           <Carousel.Caption className="top">
-            <h3>Engineering</h3>
+            <h1 className="textFont">Engineering</h1>
             <p>
               Virtual 3D Experience For The Machanical Component.
             </p>
@@ -81,7 +81,7 @@ const HomeSlider = () => {
           />
 
           <Carousel.Caption className="top">
-            <h3>Tourism</h3>
+            <h1 className="textFont">Tourism</h1>
             <p>
               Virtual 3D Experience For The Tourist.
             </p>

@@ -1,4 +1,6 @@
 import React from "react";
+import FirstModel from "../3DModels/FirstModel";
+import tdlink from "../../3DFiles/ex1.glb" 
 
 const FeedView = (props) => {
   return (
@@ -13,13 +15,15 @@ const FeedView = (props) => {
               </div>
 
               <div class="col">
-                <img
+                {/* <img
                   src={props.srclink}
                   alt="feed image"
                   width="550"
                   height="400"
                   className=" shadow-lg bg-light rounded"
-                />
+                /> */}
+                 <model-viewer id="arch_model" src={tdlink} ar ar-modes="webxr scene-viewer quick-look"  seamless-poster shadow-intensity="1" camera-controls></model-viewer>
+                {/* <FirstModel/> */}
               </div>
             </div>
           </div>
@@ -39,13 +43,15 @@ export const FeedViewLeft = (props) => {
           <div class="container">
             <div class="row">
               <div class="col">
-                <img
+                {/* <img
                   src={props.srclink}
                   alt="feed image"
                   width="550"
                   height="400"
                   className=" shadow-lg bg-light rounded"
-                />
+                /> */}
+                 <model-viewer id="arch_model" src={tdlink} ar ar-modes="webxr scene-viewer quick-look"  seamless-poster shadow-intensity="1" camera-controls></model-viewer>
+
               </div>
               <div class="col mt-5">
                 <h1 className="heading">{props.heading}</h1>
