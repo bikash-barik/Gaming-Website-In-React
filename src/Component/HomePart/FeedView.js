@@ -17,6 +17,7 @@ const FeedView = (props) => {
                     src="https://media1.giphy.com/media/jss17HdkspjmvaYxH1/giphy.gif?cid=6c09b952e6dc73568aa2eeb5ad68ebfd0dbccb04e7dd3c39&rid=giphy.gif&ct=s"
                     class="midlen"
                     height="400px"
+                    
                     alt="..."
                     
                   />

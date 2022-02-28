@@ -12,7 +12,7 @@
     transition: .5s ease;
     opacity: 0;
     position: relative;
-    width: 500px;
+    width: 300px;
     height: 200px;
     top: 0%;
     left: 40%;
@@ -22,7 +22,7 @@
   }
   
   .muscular .textlendingp:hover .textlen{
-    opacity: 0.2;
+    opacity: 0;
 
   }
   
