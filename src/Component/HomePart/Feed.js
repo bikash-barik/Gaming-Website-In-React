@@ -8,6 +8,7 @@ import ex1 from "../../3DFiles/ex1.glb";
 
 const Seed = () => {
   return (
+<<<<<<< HEAD
     <div class="container header-blue">
       <div class="container header-blue">
         <div>
@@ -29,6 +30,35 @@ const Seed = () => {
             link={"#"}
             tdink={Engineering}
           />
+=======
+
+    <div class="container header-blue">
+
+ 
+  
+
+     <div class="container header-blue">
+     
+      <div>
+      <Fade left>
+        <FeedView
+          heading={"Anatomy"}
+          title={
+            "Human Anatomy (ana- = “up”, tome = “to cut”) is often defined as the study of structures in the human body. Anatomy focuses on the description of form, or how body structures at different levels look."
+          }
+          link={"/3d/anatomy"}
+          tdink={"../../3DFiles/ex1.glb"}
+        />
+        </Fade>
+        <FeedViewLeft
+          heading={"Engineering"}
+          title={
+            "In engineering design, virtual reality utilizes 3D modeling tools and visualization techniques to enable design engineers to view and interact with their projects in 3D. The main perk of incorporating VR into the design process is that engineers can spot design flaws and potential risks well before implementation."
+          }
+          link={"/3d/anatomy"}
+          tdink={"../../3DFiles/ex1.glb"}
+        />
+>>>>>>> 4dea19dc287a30279d208d7a7c58bdd36fca033f
 
           <FeedView
             heading={"Architecture"}

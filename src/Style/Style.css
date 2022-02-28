@@ -55,8 +55,11 @@
     width: 100%;
     height: 800px;
   }
+<<<<<<< HEAD
 
   
+=======
+>>>>>>> 4dea19dc287a30279d208d7a7c58bdd36fca033f
 
 
   .popup{
@@ -66,10 +69,22 @@
     left: 69% !important;
     top: 9%;
   }
+<<<<<<< HEAD
   .top{
     top: 235px;
   }
 .top{
     top: 235px;
 
+=======
+
+  .top{
+    top: 235px;
+  }
+
+.top{
+    top: 235px;
+
+
+>>>>>>> 4dea19dc287a30279d208d7a7c58bdd36fca033f
   }
