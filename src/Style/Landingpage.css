@@ -1,6 +1,8 @@
 
 .textlen{
     opacity: 1;
+    /* justify-content: center !important;
+    justify-items: center !important; */
     display: block;
     width: 100%;
     height: auto;
