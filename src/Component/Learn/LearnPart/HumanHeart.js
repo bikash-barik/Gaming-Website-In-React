@@ -68,9 +68,15 @@ const HumanHeart = () => {
         }
       />
       <MuscularSystem
-        heading={"Mitral Valve:-"}
+        heading={"The Purkinje fibres:-"}
         title={
-          " It is one of the heart’s four chambers. It is located in the lower right portion of the heart below the right atrium and opposite the left ventricle. As deoxygenated blood flows into the right atrium, it passes through the tricuspid valve and into the right ventricle, which pumps the blood up through the pulmonary valve and through the pulmonary artery to the lungs. The septum of the heart is the dividing wall between the right and left sides of the heart.That portion of the septum that separates the two upper chambers (the right and left atria) of the heart is termed the atrial (or interatrial) septum while the portion of the septum that lies between the two lower chambers (the right and left ventricles) of the heart is called the ventricular (or interventricular) septum. The word (septum) is borrowed from the Latin (septum) meaning a dividing wall or enclosure."
+          "They are found in the sub-endocardium. They are larger than cardiac muscle cells but have fewer myofibrils, lots of glycogen and mitochondria, and no T-tubules. These cells are connected by desmosomes and gap junctions, but not by intercalated discs.They are specialized conducting fibres, which extend from the interventricular septum to the papillary muscles, and up the lateral walls of the ventricles."
+        }
+      />
+      <MuscularSystem
+        heading={"Left atrium:-"}
+        title={
+          "The left atrium is one of the four chambers of the heart, located on the left posterior side. Its primary roles are to act as a holding chamber for blood returning from the lungs and to act as a pump to transport blood to other areas of the heart. The walls of the left atrium are slightly thicker than the walls of the right atrium. Oxygen-rich blood from the lungs enters the left atrium through the pulmonary vein. The blood is then pumped into the left ventricle chamber of the heart through the mitral valve."
         }
       />
       </div>

@@ -113,12 +113,12 @@ export const menuItems = [
   {
     name: "Dental Anatomy",
     exact: true,
-    to: `/content-3`,
+    to: `/learn/dentalanatomy`,
     iconClassName: "bi bi-clipboard-data",
     subMenus: [
-      { name: "About", to: "/FreeCoupon" },
-      { name: "INTERNAL PARTS", to: "/FreeCoupon" },
-      { name: "EXTERNAL PARTS ", to: "/DownloaadReporrts" },
+      { name: "About", to: "/learn/dentalanatomy#about" },
+      { name: "INTERNAL PARTS", to: "/learn/dentalanatomy#internalparts" },
+      { name: "EXTERNAL PARTS ", to: "/learn/dentalanatomy#externalparts" },
     ],
   },
   
@@ -137,24 +137,24 @@ export const menuItems = [
   {
     name: "Liver Anatomy",
     exact: true,
-    to: `/Analytics`,
+    to: `/learn/liveranatomy`,
     iconClassName: "bi bi-clipboard-data",
     subMenus: [
-      { name: "About", to: "/FreeCoupon" },
-      { name: "INTERNAL PARTS", to: "/FreeCoupon" },
-      { name: "EXTERNAL PARTS ", to: "/DownloaadReporrts" },
+      { name: "About", to: "/learn/liveranatomy#about" },
+      { name: "INTERNAL PARTS", to: "/learn/liveranatomy#internalparts" },
+      { name: "EXTERNAL PARTS ", to: "/learn/liveranatomy#externalparts" },
     ],
   },
 
   {
     name: "Respitatory System",
     exact: true,
-    to: `/Analytics`,
+    to: `/learn/respiratorysystem`,
     iconClassName: "bi bi-clipboard-data",
     subMenus: [
-      { name: "About", to: "/FreeCoupon" },
-      { name: "INTERNAL PARTS", to: "/FreeCoupon" },
-      { name: "EXTERNAL PARTS ", to: "/DownloaadReporrts" },
+      { name: "About", to: "/learn/respiratorysystem#about" },
+      { name: "INTERNAL PARTS", to: "/learn/respiratorysystem#internalparts" },
+      { name: "EXTERNAL PARTS ", to: "/learn/respiratorysystem#externalparts" },
     ],
   },
 
