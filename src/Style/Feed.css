@@ -520,7 +520,7 @@ margin-left: -30px;
   /* text-align: center; */
   transition: all 0.5s ease;
   transform: translate(0, -50%);
-  top: 18%;
+  top: 50%;
   position: fixed;
 }
 .contact_toogle  button{
@@ -539,6 +539,10 @@ margin-left: -30px;
   .home_page {
     margin-top: 170px !important;
   }
+}
+
+@media only screen and (max-width: 600px) {
+  
 }
 
 .heading{

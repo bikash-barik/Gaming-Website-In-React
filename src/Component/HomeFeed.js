@@ -189,6 +189,7 @@ function HomeFeed() {
             onClick={() => setOpen(!open)}
             aria-controls="example-collapse-text"
             aria-expanded={open}
+            className="btn color-inherit"
           >
            <p>Contact us</p> 
           </button>
