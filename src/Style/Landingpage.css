@@ -23,12 +23,12 @@
     /* text-align: center; */
   }
   
-  .muscular .textlendingp:hover .textlen{
-    opacity: 0;
+  .textlendingp:hover .textlen{
+    opacity: 0.6;
 
   }
   
-  .muscular .textlendingp:hover .midlen{
+ .textlendingp:hover .midlen{
     opacity: 1;
   
     

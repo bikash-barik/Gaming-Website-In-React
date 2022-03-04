@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+
 import FeedView, { FeedViewLeft, LeftComView, RightComView } from "./FeedView";
 import Fade from "react-reveal/Fade";
 import AnatomyDD from "../../3DFiles/AnatomyDD.glb";
@@ -8,8 +9,10 @@ import Entertainment from "../../3DFiles/Entertainment.glb";
 import Tourism from "../../3DFiles/Tourism.glb";
 import ex from "../../3DFiles/ex1.glb";
 import ex1 from "../../3DFiles/ex1.glb";
-
+import { Button, Card, Collapse, Form } from "react-bootstrap";
 const Seed = () => {
+  const [open, setOpen] = useState(false);
+
   return (
     
 
@@ -114,6 +117,54 @@ const Seed = () => {
                 /> */}
               </div>
             </div>
+            <>
+        <div class="contact_toogle">
+          <button
+            onClick={() => setOpen(!open)}
+            aria-controls="example-collapse-text"
+            aria-expanded={open}
+            className="btn"
+          >
+           <p>CONTACT</p> 
+          </button>
+        </div>
+
+        <div className="popup">
+          <Collapse in={open} dimension="width">
+            <div id="example-collapse-text">
+              <Card body style={{ width: "400px" }}>
+                <Form>
+                  <Form.Group
+                    className="mb-3"
+                    controlId="exampleForm.ControlInput1"
+                  >
+                    <Form.Label>Name</Form.Label>
+                    <Form.Control type="text" placeholder="name" />
+                  </Form.Group>
+                  <Form.Group
+                    className="mb-3"
+                    controlId="exampleForm.ControlInput1"
+                  >
+                    <Form.Label>Email address</Form.Label>
+                    <Form.Control type="email" placeholder="name@example.com" />
+                  </Form.Group>
+                  <Form.Group
+                    className="mb-3"
+                    controlId="exampleForm.ControlTextarea1"
+                  >
+                    <Form.Label>Example textarea</Form.Label>
+                    <Form.Control as="textarea" rows={3} />
+                  </Form.Group>
+
+                  <Button variant="primary" type="submit">
+                    Submit
+                  </Button>
+                </Form>
+              </Card>
+            </div>
+          </Collapse>
+        </div>
+      </>
           </div>
        
   );

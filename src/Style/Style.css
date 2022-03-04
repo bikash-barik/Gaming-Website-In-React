@@ -80,3 +80,14 @@
 .top{
     top: 235px;
   }
+
+
+  @media only screen and (max-width: 600px) {
+    .popup{
+      padding: 48px 48px;
+      position: absolute;
+      z-index: 1;
+      left: 0% !important;
+      top: 30%;
+    }
+  }
