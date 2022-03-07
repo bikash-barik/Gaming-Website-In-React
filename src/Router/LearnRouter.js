@@ -14,6 +14,7 @@ import HumanHeart from "../Component/Learn/LearnPart/HumanHeart";
 import DentalAnatomy from "../Component/Learn/LearnPart/DentalAnatomy";
 import LiverAnatomy from "../Component/Learn/LearnPart/LiverAnatomy";
 import RespiratorySystem from "../Component/Learn/LearnPart/RespiratorySystem";
+import HumanBrain from "../Component/Learn/LearnPart/HumanBrain";
 import HeaderLearning from "../Component/HeaderLearning";
 
 
@@ -63,6 +64,7 @@ function LearnRouter() {
           <Route exact path="/learn/dentalanatomy" component={DentalAnatomy}/>
           <Route exact path="/learn/liveranatomy" component={LiverAnatomy}/>
           <Route exact path="/learn/respiratorysystem" component={RespiratorySystem}/>
+          <Route exact path="/learn/humanbrain" component={HumanBrain}/>
           
 
 

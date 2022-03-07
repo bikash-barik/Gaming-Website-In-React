@@ -77,15 +77,15 @@ export const menuItems = [
   {
     name: "Human Brain",
     exact: true,
-    to: `/Magazines`,
+    to: `/learn/humanbrain`,
     iconClassName: "bi bi-book",
     subMenus: [
-      { name: "About", to: "/AddNewMagazin" },
-      { name: "Cerebrum", to: "/AddNew" },
-      { name: "Diencephalon", to: "/Add" },
-      { name: "Cerebellum", to: "/Add" },
-      { name: "Brain Stem", to: "/Add" },
-      { name: "Neurons", to: "/Add" },
+      { name: "About", to: "/learn/humanbrain#about" },
+      { name: "Cerebrum", to: "/learn/humanbrain#cerebrum" },
+      { name: "Diencephalon", to: "/learn/humanbrain#diencephalon" },
+      { name: "Cerebellum", to: "/learn/humanbrain#cerebellum" },
+      { name: "Brain Stem", to: "/learn/humanbrain#brainstem" },
+      { name: "Neurons", to: "/learn/humanbrain#neurons" },
     ],
   },
   {
