@@ -2,20 +2,20 @@ import { FeedHeader, FeedHomeLeft, FeedHomeRight } from '../Component/HomeFeed'
 import React, { useState } from "react";
 import { Button, Card, Collapse, Form } from "react-bootstrap";
 import "../Style/Feed.css";
-export const Services = () => {
+export const Engineering = () => {
   const [open, setOpen] = useState(false);
 
   return (
     <div className='home_page sm: mt-5'>
      <FeedHeader 
-     heading={"The Leading 3D Anatomy Resource"}
+     heading={"The Leading 3D Engineering Resource"}
      destitle={" For Educators, Students, Practitioners and Industry Professionals"}
      title={"  Depend on the world’s most detailed, accurate and evidence-based 3D reconstruction of human anatomy. University experts produced our 3D models. Advanced academic research and hundreds of thousands of development hours underpin its creation, exhaustively peer reviewed so you can use our solutions with confidence."}
      leftbtnlink={"/3d/3danatomy"}
      leftbtn={"3D Visualisation"}
      rightbtnlink={"/learn/learnmore"}
      rightbtn={"Read"}
-     tdimg={"../images/humananatomy.png"}
+     tdimg={"https://www.3dsystems.com/cdn-cgi/image/w=960,q=75,f=auto/sites/default/files/2020-05/3d-systems-3DSprint_Cover.png"}
      />
       {/* ----------------------EDUCATORs SECTION STARTS------------------------------------ */}
 

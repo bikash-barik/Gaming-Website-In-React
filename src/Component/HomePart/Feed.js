@@ -31,7 +31,7 @@ const Seed = () => {
              title={
                "In engineering design, virtual reality utilizes 3D modeling tools and visualization techniques to enable design engineers to view and interact with their projects in 3D. The main perk of incorporating VR into the design process is that engineers can spot design flaws and potential risks well before implementation."
              }
-             link={"#"}
+             link={"/3deng/engineering"}
              tdink={Engineering}
             />
              <RightComView
@@ -39,7 +39,7 @@ const Seed = () => {
               title={
                 "A VR architectural presentation provides you with a full 360 view – enabling you to get a feeling for space and design and perceive the actual scale of a project. Used by interior designers, architects, and real estate developers, virtual reality systems, and 3D visualization tools are perfect for creating mixed-reality spaces and immersive experiences for projects. Virtual reality can make it easier for people to navigate through buildings and provides a way for people to experience real projects in a whole new way.Virtual reality is a new medium in architecture and design. It allows architects and designers to receive customer feedback so that it could be capitalized on before the project is finished."
               }
-              link={"#"}
+              link={"/3deng/architecture"}
               tdink={BuildingArch}
             />
 

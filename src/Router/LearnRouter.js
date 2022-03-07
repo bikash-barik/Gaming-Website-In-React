@@ -25,7 +25,7 @@ function LearnRouter() {
   return (
     <div className="App">
       <Router>
-        <HeaderLearning/>
+        {/* <HeaderLearning/> */}
         <SideMenu
           onCollapse={(inactive) => {
             console.log(inactive);

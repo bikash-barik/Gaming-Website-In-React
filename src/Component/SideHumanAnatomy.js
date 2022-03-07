@@ -9,10 +9,7 @@ const SideHumanAnatomy = () => {
             <div class="col-12 col-lg-6 col-xl-5 offset-xl-1 text-white">
               <h1>What is Human Anatomy ?</h1>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
+              Anatomy is the science that studies the structure of the body. On this page, you'll find links to descriptions and pictures of the human body's parts and organ systems from head to toe.
                 <br />
               </p>
                 <button
