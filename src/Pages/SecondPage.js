@@ -59,7 +59,7 @@ export default class SecondPage extends Component {
           <BenchGrindingMachine
             title={"Human Ear Anatomy"}
             text={
-              " A feeler gauge or a gap gauge is a tool - or, more commonly, a set of tools - used to check the width of small gaps between objects placed very close together. "
+              " The human ear consists of three parts—the outer ear, middle ear and inner ear. The ear canal of the outer ear is separated from the air-filled tympanic cavity of the middle ear by the eardrum. "
             }
             link={"/3d/view4"}
           />

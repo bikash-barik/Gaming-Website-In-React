@@ -168,6 +168,63 @@ const HumanBrain = () => {
             {/* --------------------------------------------------------------------------------------------------------------------- */}
 
 
+            <div id="neurons">
+                <br />
+                <br />
+                <br />
+                <br />
+                <h1 className="heading mt-5 text-center">Neurons</h1>
+                <div id="aboutcerebellum">
+                    <div class="border p-5">
+                        <MuscularSystem
+                            heading={"About"}
+                            title={
+                                "Neurons are the building blocks of the nervous system. They receive and transmit signals to different parts of the body. This is carried out in both physical and electrical forms. There are several different types of neurons that facilitate the transmission of information. The sensory neurons carry information from the sensory receptor cells present throughout the body to the brain. Whereas, the motor neurons transmit information from the brain to the muscles. The interneurons transmit information between different neurons in the body."
+                            }
+                        />
+                    </div>
+                    <h1 className="heading mt-5 text-center">Parts of Neurons:-</h1>
+                    <MuscularSystem
+                        heading={"Soma Cell body:"}
+                        title={
+                            " As its name suggests, soma is at the centre of the neuron, and this is where the neuron’s metabolic activity is carried out.In the soma, new molecules are generated, and all kinds of essential functions are carried out that make possible the vital maintenance of the cell and the functions of the cell,To carry out these functions and achieve the transmission of information between neurons, each of them must produce huge amounts of proteins, without which this transmission would not be possible."
+                        }
+                    />
+                    <MuscularSystem
+                        heading={"Dendrite :"}
+                        title={
+                            "Another part that makes up neurons is dendrites. This name refers to the numerous extensions in the form of small branches born from the neural body and whose main functions are to receive the stimuli and provide food to the cell.These extensions function as neural terminals, which receive other nearby neurons’ action potentials and redirect them to the cell body or soma. Also, due to its branched shape, along these, we find the dendritic spines, small spines in which the synapses that make possible the transmission of bioelectric impulses occur."
+                        }
+                    />
+                    <MuscularSystem
+                        heading={"Axon:"}
+                        title={
+                            "Finally, the axon is the main prolongation of the neuron (and the larger one). It is responsible for transporting the action potential from the cell body to another neuron. This long extension is born from the cell body or, in some cases, from a dendrite. Inside we can find the axoplasm, a characteristically viscous substance in which the different neurons are located."
+                        }
+                    />
+                    <MuscularSystem
+                        heading={"Schwann cells:"}
+                        title={
+                            "Also known as neurolemocytes, these cells check the axons of peripheral nervous system neurons and form myelin pods."
+                        }
+                    />
+                    <MuscularSystem
+                        heading={"Myelin pods:"}
+                        title={
+                            "As noted above, some axons have a myelin layer that facilitates the transmission of electrical stimuli over long distances."
+                        }
+                    />
+                    <MuscularSystem
+                        heading={"Ranvier nodules:"}
+                        title={
+                            "This concept refers to the tiny spaces found in the myelin sheath, and its main task is to enhance the speed with which electrical impulses are transmitted."
+                        }
+
+                    />
+                </div>
+
+            </div>
+            {/* ------------------------------------------------------------------------------------------------------------- */}
             <div id="brainstem">
                 <br />
                 <br />
@@ -209,9 +266,13 @@ const HumanBrain = () => {
                 </div>
 
             </div>
-            {/* --------------------------------------------------------------------------------------------------------------------- */}
-           
-            {/* --------------------------------------------------------------------------------------------------------------------- */}
+
+
+
+
+
+
+            {/* -------------------------------------------------------------------------------------------------------------- */}
 
 
 
