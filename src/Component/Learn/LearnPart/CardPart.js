@@ -13,8 +13,8 @@ const CardPart = (props) => {
 
           <div class="col">
               <a href="/viewmuscularsystem">
-              <img src="../images/ms.png" alt="feed image" width="450" height="250" className=" shadow-lg bg-light rounded" />
-              </a>
+              <img src={props.imgcont} alt="feed image" width="450" height="250" className=" shadow-lg bg-light rounded" />
+              </a>            
           </div>
         </div>
       </div>

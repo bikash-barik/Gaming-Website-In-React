@@ -14,8 +14,7 @@ const SideHumanAnatomy = () => {
               </p>
                 <button
                   class="btn btn-light btn-lg action-button m-2"
-                  type="button"
-                
+                  type="button"                
                 >
                     <a href="/learnmore" className=" text-white">  Learn More</a>
                 <i class="fa fa-long-arrow-right ml-2"></i>
