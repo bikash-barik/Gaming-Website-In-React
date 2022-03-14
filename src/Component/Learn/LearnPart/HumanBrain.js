@@ -156,14 +156,14 @@ const HumanBrain = () => {
                     "The innermost part of the cerebellum containing nerve cells that communication information from the cerebellum."
                 }
             />
-            <h1 className="heading mt-5  text-white">Functions of Cerebellum</h1>
-            <ul class="list-group text-white">
-                <li >Balance and posture</li>
-                <li >Mental function</li>
-                <li >Movement</li>
-                <li >Motor learning</li>
+            <h1 className="heading mt-5 text-white">Functions of Cerebellum</h1>
+            <ol type="i" class="text-white">
+                <li>Balance and posture</li>
+                <li>Mental function</li>
+                <li>Movement</li>
+                <li>Motor learning</li>
                 <li>Vision</li>
-            </ul>
+            </ol>
 
             {/* --------------------------------------------------------------------------------------------------------------------- */}
 
@@ -177,6 +177,7 @@ const HumanBrain = () => {
                 <div id="aboutcerebellum">
                     <div class="border p-5">
                         <MuscularSystem
+                         imgcont={"../images/ms.png"}
                             heading={"About"}
                             title={
                                 "Neurons are the building blocks of the nervous system. They receive and transmit signals to different parts of the body. This is carried out in both physical and electrical forms. There are several different types of neurons that facilitate the transmission of information. The sensory neurons carry information from the sensory receptor cells present throughout the body to the brain. Whereas, the motor neurons transmit information from the brain to the muscles. The interneurons transmit information between different neurons in the body."
@@ -185,36 +186,42 @@ const HumanBrain = () => {
                     </div>
                     <h1 className="heading mt-5 text-center">Parts of Neurons:-</h1>
                     <MuscularSystem
+                     imgcont={"../images/ms.png"}
                         heading={"Soma Cell body:"}
                         title={
                             " As its name suggests, soma is at the centre of the neuron, and this is where the neuron’s metabolic activity is carried out.In the soma, new molecules are generated, and all kinds of essential functions are carried out that make possible the vital maintenance of the cell and the functions of the cell,To carry out these functions and achieve the transmission of information between neurons, each of them must produce huge amounts of proteins, without which this transmission would not be possible."
                         }
                     />
                     <MuscularSystem
+                     imgcont={"../images/ms.png"}
                         heading={"Dendrite :"}
                         title={
                             "Another part that makes up neurons is dendrites. This name refers to the numerous extensions in the form of small branches born from the neural body and whose main functions are to receive the stimuli and provide food to the cell.These extensions function as neural terminals, which receive other nearby neurons’ action potentials and redirect them to the cell body or soma. Also, due to its branched shape, along these, we find the dendritic spines, small spines in which the synapses that make possible the transmission of bioelectric impulses occur."
                         }
                     />
                     <MuscularSystem
+                     imgcont={"../images/ms.png"}
                         heading={"Axon:"}
                         title={
                             "Finally, the axon is the main prolongation of the neuron (and the larger one). It is responsible for transporting the action potential from the cell body to another neuron. This long extension is born from the cell body or, in some cases, from a dendrite. Inside we can find the axoplasm, a characteristically viscous substance in which the different neurons are located."
                         }
                     />
                     <MuscularSystem
+                     imgcont={"../images/ms.png"}
                         heading={"Schwann cells:"}
                         title={
                             "Also known as neurolemocytes, these cells check the axons of peripheral nervous system neurons and form myelin pods."
                         }
                     />
                     <MuscularSystem
+                     imgcont={"../images/ms.png"}
                         heading={"Myelin pods:"}
                         title={
                             "As noted above, some axons have a myelin layer that facilitates the transmission of electrical stimuli over long distances."
                         }
                     />
                     <MuscularSystem
+                     imgcont={"../images/ms.png"}
                         heading={"Ranvier nodules:"}
                         title={
                             "This concept refers to the tiny spaces found in the myelin sheath, and its main task is to enhance the speed with which electrical impulses are transmitted."
@@ -237,7 +244,7 @@ const HumanBrain = () => {
                         imgcont={"../images/ms.png"}
                             heading={"About"}
                             title={
-                                "Its joining and structurally continuous with the spinal cord. In the brain, the brainstem comprises the midbrain, the pons, and the medulla oblongata. The brain stem performs the motor and sensory innervation to the face and neck through the cranial nerves. Regarding the twelve pairs of cranial nerves, the ten pairs come from the brainstem. This is an extremely valuable part of the brain as the nerve connections of the motor and sensory systems from the central part of the brain to the rest of the body reach through the brainstem. The brain stem performs the motor and sensory innervation to the face and neck through the cranial nerves. Regarding the twelve pairs of cranial nerves, the ten pairs come from the brainstem.  This comprises the corticospinal tract (motor), the dorsal column medial lemniscus pathway ( vibration sensation, fine touch, and proprioception), including the spinothalamic tract ( temperature, pain, itch, and crude touch)."
+                                "Its joining and structurally continuous with the spinal cord. In the brain, the brainstem comprises the midbrain, the pons, and the medulla oblongata. The brain stem performs the motor and sensory innervation to the face and neck through the cranial nerves. Regarding the twelve pairs of cranial nerves, the ten pairs come from the brainstem. This is an extremely valuable part of the brain as the nerve connections..."
                             }
                         />
                     </div>

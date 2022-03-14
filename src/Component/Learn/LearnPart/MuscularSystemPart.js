@@ -35,126 +35,126 @@ const MuscularSystemPart = () => {
           }
         />
         <MuscularSystem
-        imgcont={"../images/ms.png"}
+        imgcont={"https://biologydictionary.net/wp-content/uploads/2021/04/trapezius.jpg"}
           heading={"Trapezius: -"}
           title={
             " The trapezius is a muscle that starts at the base of your neck, goes across your shoulders and extends to the middle of your back. The trapezius (traps muscle) helps you move your head, neck, arms, shoulders and torso. It also stabilizes your spine and helps with posture."
           }
         />
         <MuscularSystem
-        imgcont={"../images/ms.png"}
+        imgcont={"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/1119_Muscles_that_Move_the_Humerus_b.png/250px-1119_Muscles_that_Move_the_Humerus_b.png"}
           heading={"Deltoid :- "}
           title={
             " Deltoid muscles are in your shoulder, which is the ball-and-socket joint that connects your arm to the trunk of your body. Deltoid muscles help you move your arms in different directions. They also protect and stabilize your shoulder joint."
           }
         />
         <MuscularSystem
-        imgcont={"../images/ms.png"}
+        imgcont={"https://www.drgordongroh.com/wp-content/uploads/2020/04/image1-30.png"}
           heading={"Pectoralis major :-"}
           title={
             " The pectoralis major (from Latin pectus 'breast') is a thick, fan-shaped or triangular convergent muscle, situated at the chest of the human body. It makes up the bulk of the chest muscles and lies under the breast. ... The pectoralis major's primary functions are flexion, adduction, and internal rotation of the humerus."
           }
         />
         <MuscularSystem
-        imgcont={"../images/ms.png"}
+        imgcont={"https://mobilephysiotherapyclinic.in/wp-content/uploads/2020/09/Rectus-abdominis-muscle.jpg"}
           heading={"Rectus abdominis :- "}
           title={
             "The rectus abdominis muscles are a pair of long, straight muscles that flex the spine and tighten the intra-abdominal wall. They arise from the symphysis pubis and the pubic crest and insert on the linea alba and at the fifth, sixth, and seventh costal cartilages."
           }
         />
         <MuscularSystem
-        imgcont={"../images/ms.png"}
+        imgcont={"https://www.getbodysmart.com/wp-content/uploads/2017/08/External-Oblique-3-1-770x550.png"}
           heading={"External oblique :- "}
           title={
             " The external oblique muscle is one of the outermost abdominal muscles, extending from the lower half of the ribs around and down to the pelvis."
           }
         />
         <MuscularSystem
-        imgcont={"../images/ms.png"}
+        imgcont={"https://www.researchgate.net/publication/334526937/figure/fig1/AS:781860569378819@1563421494737/Pectoralis-minor-serratus-anterior-and-latissimus-dorsi-muscles-lateral-view-right.png"}
           heading={"Latissimus dorsi : -"}
           title={
             "The latissimus dorsi muscle is a broad, flat muscle that occupies the majority of the lower posterior thorax. The muscle's primary function is of the upper extremity but is also considered to be a respiratory accessory muscle."
           }
         />
         <MuscularSystem
-        imgcont={"../images/ms.png"}
-          heading={"Triceps brachii :-"}
+        imgcont={"https://s3-us-west-2.amazonaws.com/courses-images/wp-content/uploads/sites/102/2017/05/27172618/Biceps-orgins-insertion.png"}
+          heading={"Triceps brachi :-"}
           title={
             "The triceps brachii is a large, thick muscle on the dorsal part of the upper arm. It often appears as the shape of a horseshoe on the posterior aspect of the arm. The main function of the triceps is the extension of the elbow joint."
           }
         />
         <MuscularSystem
-        imgcont={"../images/ms.png"}
-          heading={"Biceps Brachii :-"}
+        imgcont={"https://png.pngitem.com/pimgs/s/232-2321374_biceps-brachii-hd-png-download.png"}
+          heading={"Biceps Brachi :-"}
           title={
             "The biceps or biceps brachii (Latin: musculus biceps brachii, 'two-headed muscle of the arm') is a large muscle that lies on the front of the upper arm between the shoulder and the elbow. Both heads of the muscle arise on the scapula and join to form a single muscle belly which is attached to the upper forearm."
           }
         />
         <MuscularSystem
-        imgcont={"../images/ms.png"}
+        imgcont={"https://www.physio-pedia.com/images/a/ac/Muscles_that_move_the_Forearm.png"}
           heading={"Finger Flexors :- "}
           title={
             "Flexion of the fingers is produced by two long muscles, flexor digitorum profundus, and flexor digitorum superficialis. Here's the deep finger flexor, flexor digitorum profundus. It arises from the anterior and medial surface of the ulna, and from the interosseous membrane."
           }
         />
         <MuscularSystem
-        imgcont={"../images/ms.png"}
+        imgcont={"https://www.drgordongroh.com/wp-content/uploads/2021/09/extensor-1.jpg"}
           heading={"Finger Extensors :-"}
           title={
             "The extensor digitorum muscle extends the phalanges, then the wrist, and finally the elbow. It tends to separate the fingers as it extends them. In the fingers, the extensor digitorum acts principally on the proximal phalanges, acting to extend the metacarpophalangeal joint."
           }
         />
         <MuscularSystem
-        imgcont={"../images/ms.png"}
+        imgcont={"https://biologydictionary.net/wp-content/uploads/2020/08/Gluteus-Maxiumus-optimized.jpg"}
           heading={"Gluteus maximus :-"}
           title={
             "The gluteus maximus is a thick fleshy muscle with a quadrangular shape. It is a large muscle and plays a prominent role in the maintenance of keeping the upper body erect. The gluteus maximus attaches to many bony compartments including: The inner upper ilium."
           }
         />
         <MuscularSystem
-        imgcont={"../images/ms.png"}
+        imgcont={"https://www.yoganatomy.com/wp-content/uploads/2018/05/sartorius-muscle.png"}
           heading={"Sartorius :-"}
           title={
             "The sartorius is the longest muscle in the body, spanning both the hip and the knee joints. The word sartorius is derived from the Latin word sartor, which translates to patcher, or tailor, due to how the individual will position their leg while working. "
           }
         />
         <MuscularSystem
-        imgcont={"../images/ms.png"}
+        imgcont={"https://www.stretching-exercises-guide.com/images/adductor_anatomy.jpg"}
           heading={"Adductor longus :-"}
           title={
             "Adductor longus is one of the adductor muscles of the medial thigh. ... This large fan-shaped muscle is situated most anteriorly of this group and covers the middle part of adductor magnus and the anterior part of adductor brevis."
           }
         />
         <MuscularSystem
-        imgcont={"../images/ms.png"}
+        imgcont={"http://cdn.shopify.com/s/files/1/1880/1749/articles/Knee_Anatomy_Quadriceps_Tendinitis_Thumbnail_Image_1024x1024.jpg?v=1506234435"}
           heading={"Rectus femoris :- "}
           title={
             "Rectus femoris is part of the quadriceps group. It is a bulk of muscle located in the superior, anterior middle compartment of the thigh and is the only muscle in the quadriceps group that crosses the hip."
           }
         />
         <MuscularSystem
-        imgcont={"../images/ms.png"}
+        imgcont={"https://painandmotion.ca/stretch/wp-content/uploads/2020/08/hamstring-1000-2.jpg"}
           heading={"Semimembranosus :-"}
           title={
             "The semimembranosus muscle is one of the hamstring muscles in the posterior compartment of the thigh and accompanies the semitendinosus muscle in the medial aspect of the posterior thigh. It is named for its flattened membranous tendon of its ischial attachment."
           }
         />
         <MuscularSystem
-        imgcont={"../images/ms.png"}
+        imgcont={"https://www.sportsinjuryclinic.net/wp-content/uploads/2016/10/biceps-femoris-tendinopathy800.jpg"}
           heading={"Biceps femoris : -"}
           title={
             "Biceps femoris is a muscle of the posterior compartment of the thigh, and lies in the posterolateral aspect. It arises proximally by two 'heads', termed the 'long head' (superficial) and the 'short head' (deep). It is part of the hamstrings."
           }
         />
         <MuscularSystem
-        imgcont={"../images/ms.png"}
+        imgcont={"https://cdn.britannica.com/03/100103-050-B01244AC/view-leg-hip-muscles-thigh.jpg?w=400&h=300&c=crop"}
           heading={"Gastrocnemius :- "}
           title={
             "The gastrocnemius is the larger calf muscle, forming the bulge visible beneath the skin. The gastrocnemius has two parts or 'heads,' which together create its diamond shape. The soleus is a smaller, flat muscle that lies underneath the gastrocnemius muscle."
           }
         />
         <MuscularSystem
-        imgcont={"../images/ms.png"}
+        imgcont={"https://cdn11.bigcommerce.com/s-13ttxa/images/stencil/400x400/uploaded_images/how-to-stretch-and-strengthen-the-calf-muscles-gastrocnemius-and-soleus-muscles-.png?t=1630003522"}
           heading={"Soleus:-"}
           title={
             " A flat, broad muscle of the calf of the leg lying just beneath the gastrocnemius muscle. It arises from the upper portions of the tibia and fibula, the bones of the lower leg, and then joins with the gastrocnemius to attach via the Achilles tendon at the heel."
@@ -168,7 +168,7 @@ const MuscularSystemPart = () => {
         <br />
         <h1 className="heading text-center">Female</h1>
         <MuscularSystem
-        imgcont={"../images/ms.png"}
+        imgcont={"https://jotscroll.com/images/forums-posts-images/1576327883-pectoralis-major-showing-the-sternocostal-and-clavicular-heads-of-origin-and-insertion.webp"}
           heading={"Pectoralis major :-"}
           title={
             " The pectoralis major (from Latin pectus 'breast') is a thick, fan-shaped or triangular convergent muscle, situated at the chest of the human body. It makes up the bulk of the chest muscles and lies under the breast. ... The pectoralis major's primary functions are flexion, adduction, and internal rotation of the humerus."
@@ -340,3 +340,7 @@ const MuscularSystemPart = () => {
 };
 
 export default MuscularSystemPart;
+
+
+
+ 
