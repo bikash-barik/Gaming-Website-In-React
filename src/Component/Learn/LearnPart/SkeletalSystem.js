@@ -184,52 +184,52 @@ const SkeletalSystem = () => {
         title={"Your collarbone (or clavicle) is the bone that runs horizontally between the top of your breastbone (sternum ) and shoulder blade (scapula). You can feel your collarbone by touching the area between your neck and your shoulder. A broken collarbone, also called a clavicle fracture, is when this bone breaks."} 
         />
         <MuscularSystem
-        imgcont={"../images/ms.png"} 
+        imgcont={"https://teachmeanatomy.info/wp-content/uploads/Bony-Landmarks-of-the-Ischium.png"} 
         heading={"9.Ischium:"} 
         title={"The ischium forms the posteroinferior part of the hip bone. Much like the pubis, it is composed of a body, an inferior ramus and superior ramus. The inferior ischial ramus combines with the inferior pubic ramus forming the ischiopubic ramus, which encloses part of the obturator foramen."} 
         />
          <MuscularSystem
-         imgcont={"../images/ms.png"} 
+         imgcont={"https://www.theskeletalsystem.net/wp-content/uploads/2021/09/Parts-of-Scapula-Labeled-Diagram.jpg"} 
         heading={"10.Scapula:"} 
         title={"The scapula, or shoulder blade, is a large triangular-shaped bone that lies in the upper back. The bone is surrounded and supported by a complex system of muscles that work together to help you move your arm."} 
         />
         <MuscularSystem
-        imgcont={"../images/ms.png"} 
+        imgcont={"https://www.theskeletalsystem.net/wp-content/uploads/2018/09/Radius-Bone.jpg"} 
         heading={"11.Radius:"} 
         title={"The radius is a long bone in the forearm. It lies laterally and parallel to ulna, the second of the forearm bones. The radius pivots around the ulna to produce movement at the proximal and distal radio-ulnar joints."} 
         />
         <MuscularSystem
-        imgcont={"../images/ms.png"} 
+        imgcont={"https://totalcarepodiatry.com.au/wp-content/uploads/2020/08/ankle-anatomy.jpg"} 
         heading={"12.Phalanges:"} 
         title={"Phalanges (singular: phalanx) – the 14 bones that make up the toes. The big toe consists of two phalanges – the distal and proximal. The other toes have three. Sesamoids – two small, pea-shaped bones that lie beneath the head of the first metatarsal in the ball of the foot."} 
         />
          <MuscularSystem
-         imgcont={"../images/ms.png"} 
+         imgcont={"https://www.directorthocare.com/wp-content/uploads/2019/12/knee-anatomy-patella-e1575320327453.jpg"} 
         heading={"13.Pattela:"} 
         title={"The patella is a small bone located in front of the knee joint — where the thighbone (femur) and shinbone (tibia) meet. It protects the knee and connects the muscles in the front of the thigh to the tibia."} 
         />
         <MuscularSystem
-        imgcont={"../images/ms.png"} 
+        imgcont={"https://teachmeanatomy.info/wp-content/uploads/Overview-of-the-Fibula.png"} 
         heading={"14.Fibula:"} 
         title={"The fibula, sometimes called the calf bone, is smaller than the tibia and runs beside it. The top end of the fibula is located below the knee joint but is not part of the joint itself. The lower end of the fibula forms the outer part of the ankle joint."} 
         />
         <MuscularSystem
-        imgcont={"../images/ms.png"} 
+        imgcont={"https://media-us.amboss.com/media/thumbs/big_59a98b201791e.jpg"} 
         heading={"15.Ilium:"} 
         title={"The Ilium is the uppermost and largest part of the hip bone, and appears in most vertebrates including mammals and birds, but not bony fish. All reptiles have an ilium except snakes, although some snake species have a tiny bone which is considered to be an ilium."} 
         />
          <MuscularSystem
-         imgcont={"../images/ms.png"} 
+         imgcont={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREjoBSdCtovjg08c-mkXfKoNKLfDMsDwB7HZ_SNg62C7rj8taIboJpR80WbE2Jc3bwE-I&usqp=CAU"} 
         heading={"16.Humerus:"} 
         title={"The humerus also known as the upper arm bone is a long bone that runs from the shoulder and scapula (shoulder blade) to the elbow. Fractures of the humerus are classified in one of two ways: proximal humerus fracture or humerus shaft fracture."} 
         />
         <MuscularSystem
-        imgcont={"../images/ms.png"} 
+        imgcont={"http://static1.squarespace.com/static/5cfac4ee7790c7000195b430/5cfadc063250ea00011a5ab6/5cfae07db98a810001302c80/1575482606296/The-Pelvic-Girdle-Massage-CEU.jpg?format=1500w"} 
         heading={"17.Pelvic Gridel:"} 
         title={"The pelvic girdle is a ring-like bony structure, located in the lower part of the trunk. It connects the axial skeleton to the lower limbs. In this article, we shall look at the anatomy of the pelvic girdle – its bony landmarks, functions, and its clinical relevance."} 
         />
         <MuscularSystem
-        imgcont={"../images/ms.png"} 
+        imgcont={"https://my.viewmedica.com/thumbs/femoralfracture_1280.jpg?v=201606107"} 
         heading={"18.Femur:"} 
         title={"Your thighbone (femur) is the longest and strongest bone in your body. Because the femur is so strong, it usually takes a lot of force to break it. Motor vehicle collisions, for example, are the number one cause of femur fractures. The long, straight part of the femur is called the femoral shaft."} 
         />
