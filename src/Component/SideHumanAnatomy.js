@@ -1,4 +1,5 @@
 import React from 'react'
+import AnatomyDD from "../3DFiles/AnatomyDD.glb";
 
 const SideHumanAnatomy = () => {
   return (
@@ -6,7 +7,7 @@ const SideHumanAnatomy = () => {
       <div class="container header-blue">
         <div class=" hero hero1">
           <div class="row border position-sticky">
-            <div class="col-12 col-lg-6 col-xl-5 offset-xl-1 text-white">
+            <div class="col-12 col-lg-6 col-xl-5 offset-xl-1 text-white mt-5">
               <h1>What is Human Anatomy ?</h1>
               <p>
               Anatomy is the science that studies the structure of the body. On this page, you'll find links to descriptions and pictures of the human body's parts and organ systems from head to toe.
@@ -31,7 +32,7 @@ const SideHumanAnatomy = () => {
             <div class="col-md-5 col-lg-5 offset-lg-1 offset-xl-0 d-none d-lg-block phone-holder">
               <div class="iphone-mockup1">
                 {/* <img class="device" src="https://i.imgur.com/bkCeTu7.png"/>  */}
-                <iframe
+                {/* <iframe
                   width="460"
                   height="315"
                   src="https://www.youtube.com/embed/0K4ZRjkd7bc"
@@ -39,7 +40,16 @@ const SideHumanAnatomy = () => {
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen
-                ></iframe>
+                ></iframe> */}
+                <model-viewer
+                id="arch_model"
+                src={AnatomyDD}
+                ar
+                ar-modes="webxr scene-viewer quick-look"
+                seamless-poster
+                shadow-intensity="1"
+                camera-controls
+              ></model-viewer>
                 {/* <!-- <div class="screen">	</div>	--> */}
               </div>
             </div>

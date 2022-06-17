@@ -9,6 +9,17 @@
   position: sticky !important;
   top: 0% !important;
 } */
+
+/* //Coming Soon */
+.comingsoon {
+  margin: -16px;
+  background-image: url("https://static.wixstatic.com/media/bbb22a_c35923dd3dfd417e8f557164d71b56ce~mv2.gif"); /* The image used */
+  height: 98vh; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+/* // End Coming Soon */
 .ml-3{
   margin-left: 25px !important;
 }

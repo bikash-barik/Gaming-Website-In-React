@@ -9,6 +9,7 @@ import Entertainment from "../../3DFiles/Entertainment.glb";
 import Tourism from "../../3DFiles/Tourism.glb";
 import ex from "../../3DFiles/ex1.glb";
 import ex1 from "../../3DFiles/ex1.glb";
+import Human from "../../3DFiles/3D/neuron.glb"
 import { Button, Card, Collapse, Form } from "react-bootstrap";
 const Seed = () => {
   const [open, setOpen] = useState(false);
@@ -24,6 +25,7 @@ const Seed = () => {
              }
              link={"/3d/anatomy"}
              tdink={AnatomyDD}
+            //  tdink={Human}
             />
 
             <LeftComView
@@ -48,7 +50,7 @@ const Seed = () => {
             title={
               "For the travel industry, virtual reality can be used in tourism marketing to enhance travel experience and shape the behavior of travel consumers. What technology can do today is absolutely remarkable!. Using the VR, your tour or activity business can have a virtual walkthrough. Allow potential consumers to catch a glimpse of the atmosphere of the destination they’re about to book."
             }
-            link={"#"}
+            link={"comingsoon"}
             srclink={""}
             tdink={Tourism}
             />
@@ -57,7 +59,7 @@ const Seed = () => {
            title={
              "Virtual reality environments allow common people to engage with the exhibits, concerts, museum, gallery, etc. in ways which were previously unknown or forbidden. It allows the person to view 3D images and these images appear life-sized to the person, so the entertainment seems realistic but enjoyable."
            }
-           link={"#"}
+           link={"/comingsoon"}
            tdink={Entertainment}
             />
 
@@ -118,7 +120,7 @@ const Seed = () => {
               </div>
             </div>
             <>
-        <div class="contact_toogle">
+        {/* <div class="contact_toogle">
           <button
             onClick={() => setOpen(!open)}
             aria-controls="example-collapse-text"
@@ -127,7 +129,7 @@ const Seed = () => {
           >
            <p>CONTACT</p> 
           </button>
-        </div>
+        </div> */}
 
         <div className="popup">
           <Collapse in={open} dimension="width">

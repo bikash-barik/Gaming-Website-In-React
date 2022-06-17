@@ -8,16 +8,19 @@ import AppRouter from "./Router/AppRouter";
 import LearnRouter from "./Router/LearnRouter";
 import HomeRouter from "./Router/HomeRouter";
 import EngineeringRouter from "./Router/EngineeringRouter";
+import ComingSoon from "./Component/ComingSoon/ComingSoon";
 
 function App() {
   return (
     <>
     <Router >
       <Switch>
-      {/* <Route path="/" new component={HomeRouter} /> */}
+      {/* <Route path="/" component={HomeRouter} /> */}
       <Route path="/3d" component={AppRouter} />
-      <Route path="/3dEng" component={EngineeringRouter} />
+      <Route path="/3deng" component={EngineeringRouter} />
       <Route path="/learn" component={LearnRouter} />
+      <Route path="/comingsoon" component={ComingSoon} />
+
        <IndexAppRouter/>
       </Switch>
     </Router>

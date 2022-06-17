@@ -175,140 +175,140 @@ const MuscularSystemPart = () => {
           }
         />
         <MuscularSystem
-        imgcont={"../images/ms.png"}
+        imgcont={"https://upload.wikimedia.org/wikipedia/commons/3/36/1120_Muscles_that_Move_the_Forearm_Humerus_Flex_Sin.png"}
           heading={"Biceps :- "}
           title={
             "The biceps is a muscle on the front part of the upper arm. The biceps includes a “short head” and a “long head” that work as a single muscle. The biceps is attached to the arm bones by tough connective tissues called tendons. "
           }
         />
         <MuscularSystem
-        imgcont={"../images/ms.png"}
+        imgcont={"https://cdn.britannica.com/13/125813-050-311A2192/Muscles-wall.jpg"}
           heading={"Abdominal :-"}
           title={
             "The abdominal muscles are located between the ribs and the pelvis on the front of the body. The abdominal muscles support the trunk, allow movement and hold organs in place by regulating internal abdominal pressure."
           }
         />
         <MuscularSystem
-        imgcont={"../images/ms.png"}
+        imgcont={"https://www.getbodysmart.com/wp-content/uploads/2017/11/Sartorius-Muscle1-491x550.png"}
           heading={"Sartorius :-"}
           title={
             "The sartorius is the longest muscle in the body, spanning both the hip and the knee joints. The word sartorius is derived from the Latin word sartor, which translates to patcher, or tailor, due to how the individual will position their leg while working."
           }
         />
         <MuscularSystem
-        imgcont={"../images/ms.png"}
+        imgcont={"https://www.kenhub.com/thumbor/THpKCPV27O-wotWvIQfm4AclvhY=/fit-in/1400x0/filters:fill(FFFFFF,true):watermark(/images/watermark_5000_10percent.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/overview_image/942/6VaiOnlw15KU2hjY7Rgg_secondary-and-neck-back-muscles_english__1_.jpg"}
           heading={"Trapezius: - "}
           title={
             "The trapezius is a muscle that starts at the base of your neck, goes across your shoulders and extends to the middle of your back. The trapezius (traps muscle) helps you move your head, neck, arms, shoulders and torso. It also stabilizes your spine and helps with posture."
           }
         />
         <MuscularSystem
-        imgcont={"../images/ms.png"}
+        imgcont={"https://www.uptodate.com/contents/images/PEDS/114648/Deltoidinjectionsite.jpg"}
           heading={"Deltoid :-"}
           title={
             "Deltoid muscles are in your shoulder, which is the ball-and-socket joint that connects your arm to the trunk of your body. Deltoid muscles help you move your arms in different directions. They also protect and stabilize your shoulder joint."
           }
         />
         <MuscularSystem
-        imgcont={"../images/ms.png"}
+        imgcont={"https://www.yoganatomy.com/wp-content/uploads/2015/03/lattissimus-dorsi-location.jpg"}
           heading={"Latissimus dorsi : -"}
           title={
             "The latissimus dorsi muscle is a broad, flat muscle that occupies the majority of the lower posterior thorax. The muscle's primary function is of the upper extremity but is also considered to be a respiratory accessory muscle."
           }
         />
         <MuscularSystem
-        imgcont={"../images/ms.png"}
+        imgcont={"https://www.researchgate.net/publication/334526937/figure/fig1/AS:781860569378819@1563421494737/Pectoralis-minor-serratus-anterior-and-latissimus-dorsi-muscles-lateral-view-right.png"}
           heading={"Serratus Anterior :- "}
           title={
             "The serratus anterior (SA) is a fan-shaped muscle that originates on the superolateral surfaces of the first to eighth or ninth ribs at the lateral wall of the thorax and inserts along the superior angle, medial border, and inferior angle of the scapula. Its main part lies deep under the scapula and the pectoral muscles."
           }
         />
         <MuscularSystem
-        imgcont={"../images/ms.png"}
+        imgcont={"https://antranik.org/wp-content/uploads/2011/10/muscles-of-the-abdominal-wall.jpg"}
           heading={"External oblique :-"}
           title={
             "The external oblique muscle is one of the outermost abdominal muscles, extending from the lower half of the ribs around and down to the pelvis."
           }
         />
         <MuscularSystem
-        imgcont={"../images/ms.png"}
+        imgcont={"https://www.physio-pedia.com/images/a/ac/Muscles_that_move_the_Forearm.png"}
           heading={"Finger Flexors :-"}
           title={
             "Flexion of the fingers is produced by two long muscles, flexor digitorum profundus, and flexor digitorum superficialis. Here's the deep finger flexor, flexor digitorum profundus. It arises from the anterior and medial surface of the ulna, and from the interosseous membrane."
           }
         />
         <MuscularSystem
-        imgcont={"../images/ms.png"}
+        imgcont={"https://images.squarespace-cdn.com/content/v1/549b0d5fe4b031a76584e558/1523878393614-UP4ESW54A28HL26LD58X/Screen+Shot+2018-04-16+at+6.32.51+AM.png"}
           heading={"Finger Extensors :-"}
           title={
             "The extensor digitorum muscle extends the phalanges, then the wrist, and finally the elbow. It tends to separate the fingers as it extends them. In the fingers, the extensor digitorum acts principally on the proximal phalanges, acting to extend the metacarpophalangeal joint."
           }
         />
         <MuscularSystem
-        imgcont={"../images/ms.png"}
+        imgcont={"https://images.squarespace-cdn.com/content/v1/549b0d5fe4b031a76584e558/1523878393614-UP4ESW54A28HL26LD58X/Screen+Shot+2018-04-16+at+6.32.51+AM.png"}
           heading={"Quadriceps :- "}
           title={
             "The quadriceps are a group of four muscles that make up the front of your thigh. These muscles are the vastus intermedius, vastus medialis, vastus lateralis, and rectus femoris."
           }
         />
         <MuscularSystem
-        imgcont={"../images/ms.png"}
+        imgcont={"https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Pulled_Hamstring.png/220px-Pulled_Hamstring.png"}
           heading={"Hamstring:-"}
           title={
             "The prominent tendons at the back of the knee. They are the sidewalls of the hollow behind the knee. Both hamstrings connect to muscles that flex the knee. A pulled hamstring is a common athletic injury."
           }
         />
         <MuscularSystem
-        imgcont={"../images/ms.png"}
+        imgcont={"https://www.foot-pain-explored.com/images/gastrocnemius-calf-muscles.jpg"}
           heading={"Gastrocnemius :-"}
           title={
             "The gastrocnemius is the larger calf muscle, forming the bulge visible beneath the skin. The gastrocnemius has two parts or 'heads,' which together create its diamond shape. The soleus is a smaller, flat muscle that lies underneath the gastrocnemius muscle."
           }
         />
         <MuscularSystem
-        imgcont={"../images/ms.png"}
+        imgcont={"http://www.bnchiro.com/wp-content/uploads/2014/05/soleus-e1401419014929.png"}
           heading={"Soleus:-"}
           title={
             "A flat, broad muscle of the calf of the leg lying just beneath the gastrocnemius muscle. It arises from the upper portions of the tibia and fibula, the bones of the lower leg, and then joins with the gastrocnemius to attach via the Achilles tendon at the heel."
           }
         />
         <MuscularSystem
-        imgcont={"../images/ms.png"}
+        imgcont={"https://www.sportsinjurybulletin.com/wp-content/uploads/2018/11/supraspinatus-e1542419782635-300x205.jpg"}
           heading={"Infraspinatus :- "}
           title={
             "Infraspinatus is a thick triangular muscle that occupies the majority of the dorsal surface of the scapula. It arises mostly from the infraspinous fossa of scapula, and connects it to the proximal humerus."
           }
         />
         <MuscularSystem
-        imgcont={"../images/ms.png"}
+        imgcont={"https://www.getbodysmart.com/wp-content/uploads/2017/12/Teres-Major-Muscle5-523x550.png"}
           heading={"Teres major :-"}
           title={
             " Teres major is a small muscle that runs along the lateral border of the scapula. It forms the inferior border of both the triangular space and quadrangular space. It's sometimes called 'lat's little helper' because of its synergistic action with the latissimus dorsi."
           }
         />
         <MuscularSystem
-        imgcont={"../images/ms.png"}
+        imgcont={"https://www.custompilatesandyoga.com/wp-content/uploads/2017/05/gluteals-and-piriformis.jpg"}
           heading={"Gluteal mudius :-"}
           title={
             " Gluteus medius is a large fan-shaped muscle located in the posterior hip, extending from the ilium to the proximal femur. Together with the gluteus maximus, gluteus minimus and tensor fasciae latae muscles, it belongs to the muscles of the gluteal region."
           }
         />
         <MuscularSystem
-        imgcont={"../images/ms.png"}
+        imgcont={"https://www.physio-pedia.com/images/thumb/8/86/Superficial_muscles_of_the_gluteal_region_Primal.png/300px-Superficial_muscles_of_the_gluteal_region_Primal.png"}
           heading={"Gluteus maximus :-"}
           title={
             " The gluteus maximus is the main extensor muscle of the hip. It is the largest and outermost of the three gluteal muscles and makes up a large part of the shape and appearance of each side of the hips. Its thick fleshy mass, in a quadrilateral shape, forms the prominence of the buttocks."
           }
         />
         <MuscularSystem
-        imgcont={"../images/ms.png"}
+        imgcont={"https://images-prod.healthline.com/hlcmsresource/images/topic_centers/2019-1/10899-Benefits_Effectiveness_of_Hip_Abduction_Exercises-1296x728-body.jpg"}
           heading={"Abductors :-"}
           title={
             "Hip abduction is where the leg moves away from the mid-body, backward, forward or sideways. You do this movement when you take a side step or step out of a car. The muscles responsible are the hip abductors, a small muscle group located in the outer thighs and around the glutes."
           }
         />
         <MuscularSystem
-        imgcont={"../images/ms.png"}
+        imgcont={"https://thumbs.dreamstime.com/z/tibialis-anterior-muscle-d-medical-vector-illustration-white-background-eps-tibialis-anterior-muscle-d-medical-vector-142985835.jpg"}
           heading={"Tibialis anterior: -"}
           title={
             "The tibialis anterior muscle is the largest muscle located in the anterior (front) compartment of the leg. The blood supply to the tibialis anterior muscle comes primarily from the anterior tibial artery and its branches. In general, muscles of this compartment help to flex the foot in an upward direction at the ankle and also extend the toes."

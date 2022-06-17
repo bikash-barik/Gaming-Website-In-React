@@ -13,9 +13,9 @@ export const Architecture = () => {
      heading={"The Leading 3D Architecture Resource"}
      destitle={" For Educators, Students, Practitioners and Industry Professionals"}
      title={"  Depend on the world’s most detailed, accurate and evidence-based 3D reconstruction of human anatomy. University experts produced our 3D models. Advanced academic research and hundreds of thousands of development hours underpin its creation, exhaustively peer reviewed so you can use our solutions with confidence."}
-     leftbtnlink={"/3d/3danatomy"}
+     leftbtnlink={"/comingsoon"}
      leftbtn={"3D Visualisation"}
-     rightbtnlink={"/learn/learnmore"}
+     rightbtnlink={"/comingsoon"}
      rightbtn={"Read"}
      tdimg={"https://cloud.chiefarchitect.com/1/images/interior-design-software/dollhouse.png"}
      />
