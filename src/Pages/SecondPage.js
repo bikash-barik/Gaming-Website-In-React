@@ -129,3 +129,80 @@ export default class SecondPage extends Component {
         </div>
       );
   };
+
+
+  
+
+  export const SecKidney = () => {
+    return (
+        <div>
+          <BenchGrindingMachine
+            title={"Kidney"}
+            text={
+              "The kidneys are highly vascular (contain a lot of blood vessels) and are divided into three main regions: the renal cortex (outer region which contains about 1.25 million renal tubules), renal medulla (middle region.... "
+            }
+            link={"/3d/viewkidney"}
+          />
+        </div>
+      );
+  };
+
+
+
+  
+  export const SecNeuron = () => {
+    return (
+        <div>
+          <BenchGrindingMachine
+            title={"Neuron"}
+            text={
+              "Neurons (also called neurones or nerve cells) are the fundamental units of the brain and nervous system, the cells responsible for receiving sensory input from the external world, for sending motor commands to our muscles, .... "
+            }
+            link={"/3d/viewneuron"}
+          />
+        </div>
+      );
+  };
+
+
+  export const SecReproductiveSystem = () => {
+    return (
+        <div>
+          <BenchGrindingMachine
+            title={"Reproductive"}
+            text={
+              "The Reproductives are highly vascular (contain a lot of blood vessels) and are divided into three main regions: the renal cortex (outer region which contains about 1.25 million renal tubules), renal medulla (middle region.... "
+            }
+            link={"/3d/viewrepoductivisystem"}
+          />
+        </div>
+      );
+  };
+
+  export const SecDentalAnatomy = () => {
+    return (
+        <div>
+          <BenchGrindingMachine
+            title={"Dental Anatomy"}
+            text={
+              "The Dental Anatomys are highly vascular (contain a lot of blood vessels) and are divided into three main regions: the renal cortex (outer region which contains about 1.25 million renal tubules), renal medulla (middle region.... "
+            }
+            link={"/3d/viewdental"}
+          />
+        </div>
+      );
+  };
+
+  export const SecHumanCell = () => {
+    return (
+        <div>
+          <BenchGrindingMachine
+            title={"Human Cell Anatomy"}
+            text={
+              "The Human Cell Anatomys are highly vascular (contain a lot of blood vessels) and are divided into three main regions: the renal cortex (outer region which contains about 1.25 million renal tubules), renal medulla (middle region.... "
+            }
+            link={"/3d/viewhumancell"}
+          />
+        </div>
+      );
+  };

@@ -33,4 +33,12 @@
   
     
   }
-  
+
+  @media only screen and (max-width: 600px) {
+    #arch_model{
+      max-width: 340px;
+    }
+  }
+
+
+ 

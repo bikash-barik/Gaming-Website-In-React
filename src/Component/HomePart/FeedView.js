@@ -89,7 +89,7 @@ export const RightComView = (props) => {
       <div class="two_column">
         <div class="container ">
           <div class="row d-flex ">
-            <div class="col-lg-6 col-md-12 ">
+            <div class="col-lg-6 col-md-6 col-sm-2 ">
               <model-viewer
                 id="arch_model"
                 src={props.tdink}
