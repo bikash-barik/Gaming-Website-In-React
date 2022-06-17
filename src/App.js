@@ -14,7 +14,7 @@ function App() {
     <>
     <Router >
       <Switch>
-      {/* <Route path="/" component={HomeRouter} /> */}
+      {/* <Route path="/" new component={HomeRouter} /> */}
       <Route path="/3d" component={AppRouter} />
       <Route path="/3dEng" component={EngineeringRouter} />
       <Route path="/learn" component={LearnRouter} />
