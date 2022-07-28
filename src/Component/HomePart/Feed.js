@@ -11,7 +11,7 @@ import ex from "../../3DFiles/ex1.glb";
 import ex1 from "../../3DFiles/ex1.glb";
 import Human from "../../3DFiles/3D/neuron.glb"
 import { Button, Card, Collapse, Form } from "react-bootstrap";
-const Seed = () => {
+const Feed = () => {
   const [open, setOpen] = useState(false);
 
   return (
@@ -172,4 +172,4 @@ const Seed = () => {
   );
 };
 
-export default Seed;
+export default Feed;
