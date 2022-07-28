@@ -2,8 +2,8 @@ import React from "react";
 import Massages from "../Component/Massages";
 import VisualizePage from "../Component/VisualizePage";
 import Human from "../3DFiles/3D/neuron.glb" 
-import HumanMale from "../3DFiles/3D/reproductive-system.glb" 
-import HumanFemale from "../3DFiles/3D/female-reproductive-system.glb" 
+// import HumanMale from "../3DFiles/3D/reproductive-system.glb" 
+// import HumanFemale from "../3DFiles/3D/female-reproductive-system.glb" 
 import VisualizePage2 from "../Component/VisualizePage2";
 export const Visidual = () => {
   return (
